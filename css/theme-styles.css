@@ -65,8 +65,10 @@ iframe {
 	top: 0;
 	left: 0;
 	/*background: #fff;*/
+	background-color: rgba(255,255,255,0.3);
 	border-bottom: 1px solid #ff6f69;
 	z-index: 100;
+
 }
 .stiky-header .logo,
 .stiky-header .logo-mobile {
@@ -1045,7 +1047,7 @@ img {
 	display: none;
 }
 .nav-tabs {
-  border-bottom: 1px solid #313447;
+  border-bottom: 1px solid #FFF;
 	margin-bottom: 30px;
 }
 .nav-tabs.central {
@@ -1057,7 +1059,7 @@ img {
 }
 .nav-tabs > li > a {
   margin-right: 3px;
-	color: #313447;
+	color: #FFF;
 	line-height: 1.3;
 	padding: 10px 16px;
   -webkit-border-radius: 5px 5px 0 0;
@@ -2686,7 +2688,7 @@ div.line {
 		position: absolute;
 		top: 89px;
 		left: 0px;
-		background-color: #fff;
+		/*background-color: #fff;*/
 		border-bottom: 1px solid #ff6f69;
 		z-index: 100;
 	}
@@ -2897,4 +2899,22 @@ div.line {
 		height: 120px !important;
 	}
 	.chart h3 { text-align: center; };
+}
+
+/*Custom CSS
+---------------------------------------------------------*/
+
+.tab-header{
+	margin-top: -80px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.photo-subtext{
+    text-align: center;
+    font-size: 15px;
+}
+
+.bottle-service{
+    text-align: center;
 }
