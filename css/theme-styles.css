@@ -34,7 +34,7 @@
 
 body{
 	margin: 0px auto;
-	background-image: url("http://dxlfb468n8ekd.cloudfront.net/gsc/A3Y0EZ/8c/e9/f4/8ce9f47d958742cd9a2ff0ea4c60921c/images/home_2/bg.jpg?token=098b2b3d41ce3bce1f6cdc8bc085287e");
+	background-image: url("../img/Bg.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -65,7 +65,7 @@ iframe {
 	top: 0;
 	left: 0;
 	/*background: #fff;*/
-	background-color: rgba(255,255,255,0.3);
+	background-color: rgba(0, 0, 0, 0.8);
 	border-bottom: 1px solid #ff6f69;
 	z-index: 100;
 
@@ -2915,6 +2915,8 @@ div.line {
     font-size: 15px;
 }
 
-.bottle-service{
-    text-align: center;
+.center-align{
+    text-align: left;
+	margin-left: auto;
+	margin-right: auto;
 }

@@ -58,6 +58,7 @@
 @media screen and (max-width: 991px) {
 	.main-navi.open { 
 	border-bottom-color: #B11AE4 ;
+	background-color: rgba(0, 0, 0, 0.5);
 	}
 	.main-navi ul li a:hover {
 		color: #B11AE4 ;
