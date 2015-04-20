@@ -60,12 +60,12 @@ iframe {
 /*Header
 ---------------------------------------------------------*/
 .stiky-header {
-	position: fixed;
+	position: absolute;
 	width: 100%;
 	top: 0;
 	left: 0;
 	/*background: #fff;*/
-	background-color: rgba(0, 0, 0, 0.8);
+	background-color: rgba(0, 0, 0, 1);
 	border-bottom: 1px solid #ff6f69;
 	z-index: 100;
 
@@ -1963,8 +1963,8 @@ img {
 	text-align: center;
 }
 .features .feature-img {
-	width: 72px;
-	height: 72px;
+	/*width: 72px;
+	height: 72px;*/
 	margin: 0px auto 35px auto;
 }
 .features .feature-img img {
@@ -2650,6 +2650,7 @@ div.line {
 	.gall-details p, .gall-details h3 { width: 100%; }
 }
 
+
 @media screen and (max-width: 1200px) {
 	canvas#lineChart, canvas#barChart {
 		width: 460px !important;
@@ -2679,7 +2680,7 @@ div.line {
 	.footer { margin-top: 0px; }
 	.cs-page .gallery {	margin: 0 0 0 -25px; }
 	.navi-toggle { display: block; }
-	.stiky-header { position: absolute; }
+	.stiky-header { position: fixed; }
 	.main-navi {
 		display: none;
 		overflow: hidden;
@@ -2919,6 +2920,14 @@ div.line {
     text-align: left;
 	margin-left: auto;
 	margin-right: auto;
+	width: 50%
+}
+
+.location-text{
+    text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%
 }
 
 #mktoForm_1109{
@@ -2938,4 +2947,21 @@ div.line {
 
 .gallery{
 	margin: 0px 0px 0px -55px;
+}
+
+.main-navi.open{
+	margin-top: -30px;
+}
+
+@media screen and (max-width: 991px){
+	.space-top{margin-top: 5px !important;}
+}
+
+.width-correction{
+	width: 100%;
+}
+
+.section-header{
+	margin-left: auto;
+	margin-right: auto;
 }

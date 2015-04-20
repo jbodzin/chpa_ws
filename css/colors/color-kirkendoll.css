@@ -1,70 +1,70 @@
 /*
- *Ultima Default Color Scheme hex: #B11AE4 
+ *Ultima Default Color Scheme hex: #00CCFF 
  *Copyright 2014 8Guild.com
  */
  
 .side-navi ul li.current a {
-	-webkit-box-shadow: 0 0 0 2px #B11AE4 ;
-	-moz-box-shadow: 0 0 0 2px #B11AE4 ;
-	box-shadow: 0 0 0 2px #B11AE4 ;
+	-webkit-box-shadow: 0 0 0 2px #00CCFF ;
+	-moz-box-shadow: 0 0 0 2px #00CCFF ;
+	box-shadow: 0 0 0 2px #00CCFF ;
 }
 .jumbotron {
-  background-color: #B11AE4 ;
+  background-color: #00CCFF ;
 }
 .gallery li.gall-expanded > a::after {
-	border-bottom-color: #B11AE4 ;
+	border-bottom-color: #00CCFF ;
 }
 .gall-expander {
-	background: #B11AE4 ;
+	background: #00CCFF ;
 }
 .pricing-plan.highlited .body {
-	background-color: #B11AE4 ;
+	background-color: #00CCFF ;
 }
 .hero {
-	/*background-color: #B11AE4 ;*/
+	/*background-color: #00CCFF ;*/
 }
 .page-block.color {
-	background-color: #B11AE4 ;
+	background-color: #00CCFF ;
 }
 .social-networks a:hover {
 	color: #ff6f69;
 }
 .footer {
-	/*background-color: #B11AE4 ;*/
+	/*background-color: #00CCFF ;*/
 }
 .cs-page header {
-	background-color: #B11AE4 ;
+	background-color: #00CCFF ;
 }
 .cs-page .footer {
-	background-color: #B11AE4 ;
+	background-color: #00CCFF ;
 }
 .coming-soon header {
-	background-color: #B11AE4 ;
+	background-color: #00CCFF ;
 }
 .middle-block {
-	background-color: #B11AE4 ;
+	background-color: #00CCFF ;
 }
 .stiky-header {
-	border-bottom-color: #B11AE4 ;
+	border-bottom-color: #00CCFF ;
 }
 .main-navi ul li:hover a {
-	color: #B11AE4 ;
+	color: #00CCFF ;
 }
 .main-navi ul li.active a {
-	color: #B11AE4 ;
-	border-top-color: #B11AE4 ;
+	color: #00CCFF ;
+	border-top-color: #00CCFF ;
 }
 
 @media screen and (max-width: 991px) {
 	.main-navi.open { 
-	border-bottom-color: #B11AE4 ;
-	background-color: rgba(0, 0, 0, 0.5);
+	border-bottom-color: #00CCFF ;
+	background-color: rgba(0, 0, 0, 0.9);
 	}
 	.main-navi ul li a:hover {
-		color: #B11AE4 ;
+		color: #00CCFF ;
 	}
 	.main-navi ul li.active a {
-		color: #B11AE4 ;
-		border-left-color: #B11AE4 ;
+		color: #00CCFF ;
+		border-left-color: #00CCFF ;
 	}
 }

@@ -1,6 +1,8 @@
 <!doctype html>
 <!--Conditionals for IE9 Support-->
 <!--[if IE 9]><html lang="en" class="ie ie9"><![endif]-->
+
+
 <html>
   <head>
     <meta charset="utf-8">
@@ -76,25 +78,32 @@
     <section class="page-block" id="main">
     	<div class="container">
         <div class="row page-header">
-          <p><br><br><br><br><br></p>
-          <h1>[Front Page Photo]</h1>
-          <p><br><br><br><br><br></p>
-          <h2>Features</h2>
-          <span>Subtext for header</span>
+          <img src="img/top_img.png" width="100%" height="120" alt="Front"/>
         </div>
         <div class="row features">
           <div class="col-lg-4 col-md-4 col-sm-4">
-            <div class="feature-img"><img src="img/features/feature1.png" width="124" height="120" alt="Events"/></div>
+            <div class="feature-img"><img style="margin-top: 22px;" src="img/images_web/Events-Small.png" alt="Events"></div>
             <h3>See the Photos!</h3>
             <p>[Photo]</p>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-4">
-            <div class="feature-img"><img src="img/features/feature2.png" width="131" height="131" alt="Free Lunch"/></div>
+
+            <div class="feature-img">
+              <img src="img/images_web/Free-Lunch.png" alt="Free-Lunch"/>
+            </div>
             <h3>Today: Jambalaya!</h3>
-            <p>[Photo]</p>
+            <script type="text/javascript">
+            document.write('<img src="');
+            var d = new Date();
+            var n = d.getDay(); 
+            if(n==1){
+                document.write('img/features/feature1.png');
+            }
+            document.write('"; width="131" height="131" alt="Free Lunch">')
+            </script>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-4">
-            <div class="feature-img"><img src="img/features/feature3.png" width="72" height="72" alt="VIP Access"/></div>
+            <div class="feature-img"><img src="img/images_web/VIP-Access.png" alt="VIP Access"/></div>
             <h3>Sign up to recieve a free admission, exclusive invites, and other goodies!</h3>
             <p>
             <script src="//app-ab03.marketo.com/js/forms2/js/forms2.min.js"></script>
@@ -109,7 +118,7 @@
       <!--Tabs-->
       <div class="container-fluid" id="food">
         <div class="row page-header">
-        <h2>Food &amp; Drinks</h2>
+          <img style="margin-bottom: 5px;" src="img/images_web/Food-&-Drinks.png" alt="Photos" class="section-header"/>
           <!-- Nav tabs -->
           <ul class="nav nav-tabs central">
             <li class="active"><a href="#happy-hour" data-toggle="tab">Happy Hour</a></li>
@@ -195,8 +204,7 @@
     <section class="page-block" id="photos">
       <div class="container">
         <div class="row page-header">
-          <h2>Photos</h2>
-          <span>Subtext for header</span>
+          <img src="img/images_web/Photos.png" alt="Photos" class="section-header"/>
         </div>
         <div class="row">
           <ul class="gallery">
@@ -257,8 +265,7 @@
     <section class="page-block less-space-bottom" id="events">
     	<div class="container">
         <div class="row page-header">
-          <h2>Events</h2>
-          <span>Subtext for header</span>
+          <img src="img/images_web/Events.png" class="section-header" alt="Events"/>
         </div>
         <div class="row">
           <div class="col-lg-6 col-md-6 col-sm-6 chart">
@@ -307,8 +314,7 @@
     <section class="page-block" id="bottle-service">
     	<div class="container">
         <div class="row page-header">
-          <h2>Bottle Service</h2>
-          <span>Subtext for header</span>
+          <img src="img/images_web/Bottle-Service.png" class="section-header" alt="Bottle Service"/>
         </div>
         <div class="row">
         	<div class="col-lg-6 col-md-6 col-sm-6">
@@ -353,8 +359,7 @@
     <section class="page-block" id="careers">
     	<div class="container">
         <div class="row page-header">
-          <h2>Careers</h2>
-          <span>Subtext for header</span>
+          <img src="img/images_web/Careers.png" class="section-header" alt="Careers"/>
         </div>
         <div class="row">
         	<div class="col-lg-6 col-md-6 col-sm-6">
@@ -362,7 +367,7 @@
             <p>Whether it be on stage, on the floor, behind the bar or at the door, if you feel you would be an asset, come in to submit an application.</p>
             <p>Give us a call, drop off a resume, or send us an email. Contact information is below.</p>
           </div>
-        	<div class="col-lg-6 col-md-6 col-sm-6">
+        	<div class="col-lg-6 col-md-6 col-sm-6 photo-subtext">
             <h2>[Photo]</h2>
           </div>
         </div>
@@ -374,17 +379,16 @@
     <section class="page-block" id="location">
       <div class="container">
         <div class="row page-header">
-          <h2>Location & Hours</h2>
-          <span>Subtext for header</span>
+          <img src="img/images_web/Location-&-Hours.png" class="section-header">
         </div>
         <div class="row">
-        	<div class="col-lg-2 col-md-2 center-align">
-          	<div class="row space-bottom">
+        	<div class="col-lg-3 col-md-3">
+          	<div class="row space-bottom location-text">
             	<div class="col-lg-9 col-md-9">
               	<h3>Address</h3>
               </div>
             </div>
-            <div class="row">
+            <div class="row location-text">
             	<div class="col-lg-12">
                 <p class="text-justify"><b>Address:</b><br>
                 2901 I-10 Frontage Road<br>
@@ -393,18 +397,18 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-8 col-md-8 center-align">
-            <div class="row">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3439.6359312420677!2d-91.24684099999999!3d30.446420999999997!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86241e642afdfb8d%3A0x3f4c607dba7f5f31!2sCrazy+Horse+Cabaret!5e0!3m2!1sen!2sus!4v1429133140972" width="100%" height="450" frameborder="0" style="border:0"></iframe>
+          <div class="col-lg-6 col-md-6">
+            <div class="row width-correction">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3439.6359312420677!2d-91.24684099999999!3d30.446420999999997!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86241e642afdfb8d%3A0x3f4c607dba7f5f31!2sCrazy+Horse+Cabaret!5e0!3m2!1sen!2sus!4v1429133140972" width="100%" height="330" frameborder="0" style="border:0"></iframe>
             </div>
           </div>
-          <div class="col-lg-2 col-md-2 center-align">
-          	<div class="row space-bottom">
+          <div class="col-lg-3 col-md-3">
+          	<div class="row space-bottom location-text">
             	<div class="col-lg-8 col-md-8">
               	<h3>Hours:</h3>
               </div>
             </div>
-            <div class="row">
+            <div class="row location-text">
             	<div class="col-lg-12">
               	<p>Open 7 days a week<br>
                 Free Lunch: 11am until 2pm<br>
@@ -420,8 +424,7 @@
     <section class="page-block" id="contact">
     	<div class="container">
         <div class="row page-header">
-          <h2>Contact Us</h2>
-          <span>Subtext for header</span>
+          <img src="img/images_web/Contact-Us.png" class="section-header">
           <script src="//app-ab03.marketo.com/js/forms2/js/forms2.min.js"></script>
           <form id="mktoForm_1110"></form>
           <script>MktoForms2.loadForm("//app-ab03.marketo.com", "634-KAC-055", 1110);</script>
