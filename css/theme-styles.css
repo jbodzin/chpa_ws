@@ -2923,22 +2923,49 @@ div.line {
 	width: 50%
 }
 
-.location-text{
+@media screen and (min-width: 992px){
+	.location-text{
+			text-align: left;
+			margin-left: auto;
+			margin-right: auto;
+			width: 80%
+	}
+}
+
+@media screen and (max-width: 991px){
+	.location-text{text-align: center !important;}
+}
+
+.career-text{
     text-align: left;
 	margin-left: auto;
 	margin-right: auto;
-	width: 80%
+	width: 85%
 }
 
+/*VIP Access Form*/
 #mktoForm_1109{
 	margin-left: auto;
 	margin-right: auto;
+	width: 100%;
 }
 
+@media screen and (min-width: 767px) and (max-width: 991px){
+	.mktoForm_1109{width: 50% !important;}
+}
+
+@media screen and (max-width: 767px){
+	.mktoForm_1109{width: 50% !important;}
+}
+
+
+/*Contact Form*/
 #mktoForm_1110{
 	margin-left: auto;
 	margin-right: auto;
 }
+
+
 
 .body-container{
 	background-color: #000;
