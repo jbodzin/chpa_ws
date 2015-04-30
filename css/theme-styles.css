@@ -48,7 +48,7 @@ body{
 
 
 body.space-top {
-	padding-top: 70px;
+	padding-top: 30px;
 }
 
 /*Iframe
@@ -105,7 +105,7 @@ iframe {
 }
 .main-navi ul li a {
 	display: block;
-	padding: 30px 5px;
+	padding: 10px 5px;
 	border-top: 4px solid transparent;
 	color: #FFF;
 	font-size: 1.2em;
@@ -314,23 +314,23 @@ h2 {
 	margin-bottom: 20px;
 }
 h3 {
-	font-size: 1.7em;
+	font-size: 1.5em;
 	font-weight: 300;
 	margin-bottom: 15px;
 }
 h4 {
 	font-size: 1.3em;
-	font-weight: 500;
+	font-weight: 300;
 	margin-bottom: 15px;
 }
 h5 {
 	font-size: 1.125em;
-	font-weight: 500;
+	font-weight: 300;
 	margin-bottom: 15px;
 }
 h6 {
 	font-size: 0.95em;
-	font-weight: 500;
+	font-weight: 300;
 	margin-bottom: 15px;
 }
 p {
@@ -343,23 +343,24 @@ p.big {
 }
 ul, ol,
 ul.list-unstyled {
-	padding-left: 25px;
-	font-size: 1em;
+	/*padding-left: 25px;*/
+	font-size: 1.2em;
+	font-weight: 300;
 	line-height: 1.8;
 	margin-bottom: 25px;
 }
 ul { list-style: none; }
 ol { padding-left: 45px; }
-ul li:before {
+/*ul li:before {
 	font-family: "FontAwesome";
 	margin-right: 5px;
 	content:"\f111";
 	color: #9a9ba4;
 	font-size: 0.67em;
-}
+}*/
 ul li ul {
 	font-size: 1em;
-	padding-left: 32px;
+	/*padding-left: 32px;*/
 }
 ul li ul li:before,
 ul.list-unstyled li ul li:before {
@@ -386,7 +387,7 @@ blockquote footer {
 }
 .page-header {
   padding-bottom: 0;
-  margin: 0 0 70px 0;
+  margin: 0 0 30px 0;
   border-bottom: none;
 	text-align: center;
 }
@@ -1941,7 +1942,7 @@ img {
 /*Page Blocks
 ---------------------------------------------------------*/
 .page-block {
-	padding: 50px 0 60px 0;
+	padding: 0px 0 60px 0;
 }
 .page-block.color {
 	background-color: #ff6f69;
@@ -2729,7 +2730,7 @@ div.line {
 
 @media screen and (max-width: 860px) {
 	.side-navi { display: none; }
-	.page-block { padding: 30px 0; }
+	.page-block { padding: 0px 0; }
 	.gallery {
 		margin: 0;
 		width: 100%;
@@ -2923,6 +2924,13 @@ div.line {
 	width: 50%
 }
 
+.bottles-mixers{
+    text-align: left;
+	margin-left: 40%;
+	margin-right: auto;
+	width: 50%	
+}
+
 @media screen and (min-width: 992px){
 	.location-text{
 			text-align: left;
@@ -2938,16 +2946,16 @@ div.line {
 
 .career-text{
     text-align: left;
-	margin-left: auto;
+	margin-left: 40%;
 	margin-right: auto;
-	width: 85%
+	width: 50%;
 }
 
 /*VIP Access Form*/
 #mktoForm_1109{
 	margin-left: auto;
 	margin-right: auto;
-	width: 100%;
+	width: 100% !important;
 }
 
 @media screen and (min-width: 767px) and (max-width: 991px){
@@ -2968,8 +2976,7 @@ div.line {
 
 
 .body-container{
-	background-color: #000;
-	opacity: 0.8;
+	background-color: rgba(0,0,0,0.6);
 }
 
 .gallery{
@@ -2991,4 +2998,58 @@ div.line {
 .section-header{
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: -45px;
+}
+
+.square-photos{
+	margin-left: auto;
+	margin-right: auto;
+	width:263px;
+	height:263px;
+}
+
+.large-photo{
+	margin-left: -15px;
+}
+
+.large-photo-mobile{
+	margin-left: -15px;
+	max-width: 767px;
+	width: 107%;
+}
+
+.top-page-header{
+	margin: 0px 0px -45px;
+}
+
+.bottle-service-adj{
+	margin-top: 20px;
+}
+
+@media screen and (max-width: 767px){
+	.align-bottle-service{text-align: center}
+}
+
+.social{
+	width: 60px !important;
+}
+
+.social-icons{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media screen and (max-width: 767px){
+	.gallery{
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+.champagne-list{
+	margin-left: -15px;
+}
+
+.top-section-headers{
+	margin-top: -35px !important;
 }
