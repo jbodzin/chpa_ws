@@ -3069,8 +3069,15 @@ div.line {
 	.yelp{float:left;}
 	.top-section-headers{margin-top: -35px !important;}
 	.section-header{margin-top: -45px;}
+
+	.footer-logos img{
+		display: inline;
+		margin-left: auto;
+  		margin-right: auto;
+	}
 }
 
 .follow-us{
 	margin-top: 53px;
 }
+
