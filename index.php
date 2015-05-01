@@ -525,15 +525,7 @@
     </section>
     
     <!--Footer-->
-    <footer class="footer">
-    	<div class="container">             
-        <div class="row">
-        	<div class="col-lg-12">
-          	<p class="copyright">&copy; 2015 Kirkendoll Management. All Rights Reserved.</p>
-          </div>
-        </div>
-      </div>
-    </footer>
+    <?php include 'footer.php'; ?>
     
     <!--Scroll To Top Button-->
     <div id="scroll-top" class="scroll-up"><i class="icon-arrow-up"></i></div>
