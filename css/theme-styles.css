@@ -3071,6 +3071,10 @@ div.line {
 	.section-header{margin-top: -45px;}
 
 	.footer-logos {
+		padding-top: 100px;
+		padding-bottom: 50px;
+    	vertical-align: middle;
+		height: 100px;
 		width: 720px;
   		display: block;
   		margin-left: auto;
