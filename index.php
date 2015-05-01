@@ -129,7 +129,7 @@
           <div class="col-lg-4 col-md-4 col-sm-4">
             <div class="feature-img"><img src="img/images_web/Events-Small.png" class="top-section-headers" alt="Events"></div>
             <h3>See the Photos!</h3>
-            <a class="scroll" href="#events"><img src="img/Party-Thumbnails/Event-Thumbnail.png" width="131" height="131" class="square-photos" alt="Free Lunch"></a>
+            <a class="scroll" href="#events"><img src="img/Party-Thumbnails/Event-Thumbnail.png" width="131" height="131" class="square-photos event-img" alt="Free Lunch"></a>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-4">
             <div class="feature-img"><img src="img/images_web/VIP-Access.png" class="top-section-headers" alt="VIP Access"/></div>
