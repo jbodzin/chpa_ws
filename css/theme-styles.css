@@ -3015,10 +3015,6 @@ div.line {
 	margin-top: -150px;
 }
 
-.footer-logos img{
-		display: inline;
-	}
-
 /*Mobile Only CSS Mods*/
 @media screen and (max-width: 767px){
 	.bottle-service-header{
@@ -3071,23 +3067,13 @@ div.line {
 		margin-right: auto;
 		width: 50%;
 	}
+	.section-header{margin-top: -45px;}
 }
 
 /*Tablet & Mobile CSS Mods*/
 @media screen and (max-width: 991px){
 	.space-top{margin-top: 5px !important;}
 	.location-text{text-align: center !important;}
-
-	.footer-logos {
-		padding-top: 100px;
-		padding-bottom: 50px;
-    	vertical-align: middle;
-		height: 500px;
-		width: 300px;
-  		display: block;
-  		margin-left: auto;
-  		margin-right: auto;
-	}
 }
 
 /*Browser & Tablet CSS Mods*/
@@ -3095,8 +3081,6 @@ div.line {
 	.facebook{float:right;}
 	.yelp{float:left;}
 	.top-section-headers{margin-top: -35px !important;}
-	.section-header{margin-top: -45px;}
-
 	.footer-logos {
 		padding-top: 100px;
 		padding-bottom: 50px;
@@ -3108,7 +3092,9 @@ div.line {
   		margin-right: auto;
 	}
 
-	
+	.footer-logos img{
+		display: inline;
+	}
 }
 
 
@@ -3118,5 +3104,6 @@ div.line {
 	.event-img{
 		margin-bottom: 49px;
 	}
+	.section-header{margin-top: -25px;}
 }
 
