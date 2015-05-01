@@ -3015,6 +3015,10 @@ div.line {
 	margin-top: -150px;
 }
 
+.footer-logos img{
+		display: inline;
+	}
+
 /*Mobile Only CSS Mods*/
 @media screen and (max-width: 767px){
 	.bottle-service-header{
@@ -3073,6 +3077,17 @@ div.line {
 @media screen and (max-width: 991px){
 	.space-top{margin-top: 5px !important;}
 	.location-text{text-align: center !important;}
+
+	.footer-logos {
+		padding-top: 100px;
+		padding-bottom: 50px;
+    	vertical-align: middle;
+		height: 500px;
+		width: 300px;
+  		display: block;
+  		margin-left: auto;
+  		margin-right: auto;
+	}
 }
 
 /*Browser & Tablet CSS Mods*/
@@ -3093,9 +3108,7 @@ div.line {
   		margin-right: auto;
 	}
 
-	.footer-logos img{
-		display: inline;
-	}
+	
 }
 
 
