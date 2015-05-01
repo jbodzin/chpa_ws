@@ -45,12 +45,12 @@
     <!--Header-->
     <header class="stiky-header">
     	<div class="container group">
-      	<a class="logo social" href="https://www.facebook.com/CrazyHorseCabaret" width="60px"><img src="img/Icons/Facebook-Icon.png" alt="Facebook"/></a>
-        <a class="logo social" href="https://twitter.com/crazyhorsecab" width="60px"><img src="img/Icons/Twitter-Icon.png" alt="Twitter"/></a>
-        <a class="logo social" href="http://www.yelp.com/biz/crazy-horse-cabaret-port-allen-2" width="60px"><img src="img/Icons/Yelp-Icon.png" alt="Yelp"/></a>
-        <a class="logo-mobile social" href="https://www.facebook.com/CrazyHorseCabaret" width="60px"><img src="img/Icons/Facebook-Icon-Small.png" alt="Facebook"/></a>
-        <a class="logo-mobile social" href="https://twitter.com/crazyhorsecab" width="60px"><img src="img/Icons/Twitter-Icon-Small.png" alt="Twitter"/></a>
-        <a class="logo-mobile social" href="http://www.yelp.com/biz/crazy-horse-cabaret-port-allen-2" width="60px"><img src="img/Icons/Yelp-Icon-Small.png" alt="Yelp"/></a>
+      	<a class="logo social" href="https://www.facebook.com/CrazyHorseCabaret" target="_blank" width="60px"><img src="img/Icons/Facebook-Icon.png" alt="Facebook"/></a>
+        <a class="logo social" href="https://twitter.com/crazyhorsecab" target="_blank" width="60px"><img src="img/Icons/Twitter-Icon.png" alt="Twitter"/></a>
+        <a class="logo social" href="http://www.yelp.com/biz/crazy-horse-cabaret-port-allen-2" target="_blank" width="60px"><img src="img/Icons/Yelp-Icon.png" alt="Yelp"/></a>
+        <a class="logo-mobile social" href="https://www.facebook.com/CrazyHorseCabaret" target="_blank" width="60px"><img src="img/Icons/Facebook-Icon-Small.png" alt="Facebook"/></a>
+        <a class="logo-mobile social" href="https://twitter.com/crazyhorsecab" target="_blank" width="60px"><img src="img/Icons/Twitter-Icon-Small.png" alt="Twitter"/></a>
+        <a class="logo-mobile social" href="http://www.yelp.com/biz/crazy-horse-cabaret-port-allen-2" target="_blank" width="60px"><img src="img/Icons/Yelp-Icon-Small.png" alt="Yelp"/></a>
         <div class="navi-toggle group">
         	<span class="dot"></span><span class="line"></span>
           <span class="dot"></span><span class="line"></span>
@@ -69,8 +69,8 @@
             <li class=""><a class="scroll" href="#photos">Photos</a></li>
             <li class=""><a class="scroll" href="#bottle-service">Bottle Service</a></li>
             <li class=""><a class="scroll" href="#careers">Careers</a></li>
-            <li class=""><a class="scroll" href="#contact">Contact Us</a></li>
             <li class=""><a class="scroll" href="#location">Location &amp; Hours</a></li>
+            <li class=""><a class="scroll" href="#contact">Contact Us</a></li>
           </ul>
         </nav>
       </div>
@@ -141,13 +141,13 @@
             </p>
             <h3 class="follow-us">Follow Us!</h3>
             <div class="col-lg-4 col-md-4 col-sm-1">
-              <a href="https://www.facebook.com/CrazyHorseCabaret"><img src="img/Icons/Facebook-Icon.png" alt="Facebook" class="social-icons facebook"/></a>
+              <a href="https://www.facebook.com/CrazyHorseCabaret" target="_blank"><img src="img/Icons/Facebook-Icon.png" alt="Facebook" class="social-icons facebook"/></a>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-1">
-              <a href="https://twitter.com/crazyhorsecab"><img src="img/Icons/Twitter-Icon.png" alt="Twitter" class="social-icons"/></a>
+              <a href="https://twitter.com/crazyhorsecab" target="_blank"><img src="img/Icons/Twitter-Icon.png" alt="Twitter" class="social-icons"/></a>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-1">
-              <a href="http://www.yelp.com/biz/crazy-horse-cabaret-port-allen-2"><img src="img/Icons/Yelp-Icon.png" alt="Yelp" class="social-icons yelp"/></a>
+              <a href="http://www.yelp.com/biz/crazy-horse-cabaret-port-allen-2" target="_blank"><img src="img/Icons/Yelp-Icon.png" alt="Yelp" class="social-icons yelp"/></a>
             </div>
           </div>
         </div>
@@ -450,13 +450,59 @@
         <div class="row">
         	<div class="col-lg-6 col-md-6 col-sm-6">
             <div class="career-text">
-            	<p>We're always looking for new talent!</p>
+            	<h3>We're always looking for new talent!</h3>
               <p>Whether it be on stage, on the floor, behind the bar or at the door, if you feel you would be an asset, come in to submit an application.</p>
               <p>Give us a call, drop off a resume, or send us an email. Contact information is below.</p>
             </div>
           </div>
         	<div class="col-lg-6 col-md-6 col-sm-6 photo-subtext">
           <img src="img/images_web/Careers-Photo.png" class="" width="90%" alt="Careers"/>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <!--Location-->
+    <section class="page-block" id="location">
+      <div class="container">
+        <div class="row page-header">
+          <img src="img/images_web/Location-&-Hours.png" class="section-header">
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-3">
+            <div class="row space-bottom location-text">
+              <div class="col-lg-9 col-md-9">
+                <h3>Address</h3>
+              </div>
+            </div>
+            <div class="row location-text">
+              <div class="col-lg-12">
+                <p><b>Address:</b><br>
+                2901 I-10 Frontage Road<br>
+                Port Allen, LA 70767<br>
+                (225) 387-6444</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="row width-correction">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3439.6359312420677!2d-91.24684099999999!3d30.446420999999997!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86241e642afdfb8d%3A0x3f4c607dba7f5f31!2sCrazy+Horse+Cabaret!5e0!3m2!1sen!2sus!4v1429133140972" width="100%" height="330" frameborder="0" style="border:0"></iframe>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3">
+            <div class="row space-bottom location-text">
+              <div class="col-lg-8 col-md-8">
+                <h3>Hours:</h3>
+              </div>
+            </div>
+            <div class="row location-text">
+              <div class="col-lg-12">
+                <p>Open 7 days a week<br>
+                Free Lunch: 11am until 2pm<br>
+                Happy Hour: 5pm until 7pm</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -478,54 +524,16 @@
       </div>
     </section>
     
-    <!--Location-->
-    <section class="page-block" id="location">
-      <div class="container">
-        <div class="row page-header">
-          <img src="img/images_web/Location-&-Hours.png" class="section-header">
-        </div>
+    <!--Footer-->
+    <footer class="footer">
+    	<div class="container">             
         <div class="row">
-        	<div class="col-lg-3 col-md-3">
-          	<div class="row space-bottom location-text">
-            	<div class="col-lg-9 col-md-9">
-              	<h3>Address</h3>
-              </div>
-            </div>
-            <div class="row location-text">
-            	<div class="col-lg-12">
-                <p><b>Address:</b><br>
-                2901 I-10 Frontage Road<br>
-                Port Allen, LA 70767<br>
-                (225) 387-6444</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-6">
-            <div class="row width-correction">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3439.6359312420677!2d-91.24684099999999!3d30.446420999999997!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86241e642afdfb8d%3A0x3f4c607dba7f5f31!2sCrazy+Horse+Cabaret!5e0!3m2!1sen!2sus!4v1429133140972" width="100%" height="330" frameborder="0" style="border:0"></iframe>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-3">
-          	<div class="row space-bottom location-text">
-            	<div class="col-lg-8 col-md-8">
-              	<h3>Hours:</h3>
-              </div>
-            </div>
-            <div class="row location-text">
-            	<div class="col-lg-12">
-              	<p>Open 7 days a week<br>
-                Free Lunch: 11am until 2pm<br>
-                Happy Hour: 5pm until 7pm</p>
-              </div>
-            </div>
+        	<div class="col-lg-12">
+          	<p class="copyright">&copy; 2015 Kirkendoll Management. All Rights Reserved.</p>
           </div>
         </div>
       </div>
-    </section>
-    
-    <!--Footer-->
-    <?php include 'footer.php'; ?>
-    
+    </footer>
     
     <!--Scroll To Top Button-->
     <div id="scroll-top" class="scroll-up"><i class="icon-arrow-up"></i></div>
@@ -546,9 +554,6 @@
     <script src="js/plugins/smoothscroll.js"></script>
 		<script src="js/landing2.js"></script>
   </div>  
-
- 
-
   </body><!--Close Body-->
 
 </html>
