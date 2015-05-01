@@ -401,15 +401,15 @@
     <section class="page-block" id="bottle-service">
     	<div class="container">
         <div class="row page-header">
-          <img src="img/images_web/Bottle-Service.png" class="section-header" alt="Bottle Service"/>
+          <img src="img/images_web/Bottle-Service.png" class="section-header bottle-service-header" alt="Bottle Service"/>
         </div>
         <div class="row">
           <script type="text/javascript">
             if(window.innerWidth>767){
-              document.write('<img src="img/food/Bottle-Service.png" class="large-photo" alt="Bottle Service"/>')
+              document.write('<img src="img/food/Bottle-Service.png" class="large-photo bottle-service-img" alt="Bottle Service"/>')
             }
             else{
-              document.write('<img src="img/food/Bottle-Service-Small.png" class="large-photo-mobile" alt="Bottle Service"/>')
+              document.write('<img src="img/food/Bottle-Service-Small.png" class="large-photo-mobile bottle-service-img" alt="Bottle Service"/>')
             }
           </script>
         	<div class="col-lg-6 col-md-6 col-sm-6 bottle-service-adj">

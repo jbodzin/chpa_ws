@@ -3074,3 +3074,22 @@ div.line {
 .follow-us{
 	margin-top: 53px;
 }
+
+.bottle-service-header{
+	margin-top: -35px !important;
+	position: relative !important;
+}
+
+.bottle-service-img{
+	margin-top: -150px;
+}
+
+@media screen and (max-width: 767px){
+	.bottle-service-header{
+		margin-top: 65px !important;
+	}
+
+	.bottle-service-img{
+		margin-top: -110px !important;
+	}
+}
