@@ -3070,10 +3070,15 @@ div.line {
 	.top-section-headers{margin-top: -35px !important;}
 	.section-header{margin-top: -45px;}
 
+	.footer-logos {
+		width: 720px;
+  		display: block;
+  		margin-left: auto;
+  		margin-right: auto;
+	}
+
 	.footer-logos img{
 		display: inline;
-		margin-left: auto;
-  		margin-right: auto;
 	}
 }
 
