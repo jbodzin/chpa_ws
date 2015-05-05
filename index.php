@@ -104,32 +104,66 @@
               var n = d.getDay(); 
               if(n==1){
                   header = 'Red Beans &amp; Rice';
-                    img = 'img/food/Monday-Redbeans.png';
+                  if(window.innerWidth>768){
+                    document.write(img = 'img/food/Monday-Redbeans.png');
+                  }
+                  else{
+                    document.write(img = 'img/food/Food-Mobile/Monday-Redbeans-Mobile.png');
+                  }
               }
               else if(n==2){
                   header = 'Jambalaya';
+                  if(window.innerWidth>768){
                     img = 'img/food/Tuesday-Jambalaya.png';
+                  }
+                  else{
+                    img = 'img/food/Food-Mobile/Tuesday-Jambalaya-Mobile.png';
+                  }
               }
               else if(n==3){
                   header = 'Chicken Fried Steak';
+                  if(window.innerWidth>768){
                     img = 'img/food/Wednesday-ChxFriedSteak.png';
+                  }
+                  else{
+                    img = 'img/food/Food-Mobile/Wednesday-ChxFriedSteak-Mobile.png';
+                  }
               }
               else if(n==4){
                   header = 'Spaghetti &amp; Meatballs';
+                  if(window.innerWidth>768){
                     img = 'img/food/Thursday-Spaghetti.png';
+                  }
+                  else{
+                    img = 'img/food/Food-Mobile/Thursday-Spaghetti-Mobile.png';
+                  }
               }
               else if(n==5){
                   header = 'Catfish & White Beans';
+                  if(window.innerWidth>768){
                     img = 'img/food/Friday-Catfish.png';
+                  }
+                  else{
+                    img = 'img/food/Food-Mobile/Friday-Catfish-Mobile.png';
+                  }
               }
-              document.write('<h3>Today: ' + header + '!</h3> <a class="scroll" href="#food"><img src="' + img + '"; width="131" height="131" class="square-photos feature-photo" alt="Free Lunch"></a>')
+              document.write('<h3>Today: ' + header + '!</h3> <a class="scroll" href="#food"><img src="' + img + '"; class="square-photos feature-photo" alt="Free Lunch"></a>')
               </script>
             </div>  
           </div>
           <div class="col-lg-4 col-md-4 col-sm-4">
             <div class="feature-img"><img src="img/images_web/Events-Small.png" class="top-section-headers" alt="Events"></div>
             <h3>See the Photos!</h3>
-            <a class="scroll" href="#photos"><img src="img/Party-Thumbnails/Event-Thumbnail.png" width="131" height="131" class="square-photos event-img feature-photo" alt="Free Lunch"></a>
+            <a class="scroll" href="#photos">
+            <script type="text/javascript">
+            if(window.innerWidth>767){
+                  document.write('<img src="img/Party-Thumbnails/Event-Thumbnail.png" class="square-photos event-img feature-photo" alt="Free Lunch">')
+                }
+                else{
+                  document.write('<img src="img/food/Food-Mobile/Event-Thumbnail-Mobile.png" class="mobile-photos" alt="Free Lunch">')
+                }
+            </script>
+            </a>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-4">
             <div class="feature-img"><img src="img/images_web/VIP-Access.png" class="top-section-headers" alt="VIP Access"/></div>
