@@ -94,7 +94,7 @@
           <div class="col-lg-4 col-md-4 col-sm-4">
 
             <div class="feature-img">
-              <img src="img/images_web/Free-Lunch.png" class="top-section-headers" alt="Free-Lunch"/>
+              <a class="scroll" href="#food"><img src="img/images_web/Free-Lunch.png" class="top-section-headers" alt="Free-Lunch"/></a>
             </div>
             <div class="">
               <script type="text/javascript">
@@ -104,32 +104,32 @@
               var n = d.getDay(); 
               if(n==1){
                   header = 'Red Beans &amp; Rice';
-                  img = 'img/food/Monday-Redbeans.png';
+                    img = 'img/food/Monday-Redbeans.png';
               }
               else if(n==2){
                   header = 'Jambalaya';
-                  img = 'img/food/Tuesday-Jambalaya.png';
+                    img = 'img/food/Tuesday-Jambalaya.png';
               }
               else if(n==3){
                   header = 'Chicken Fried Steak';
-                  img = 'img/food/Wednesday-ChxFriedSteak.png';
+                    img = 'img/food/Wednesday-ChxFriedSteak.png';
               }
               else if(n==4){
                   header = 'Spaghetti &amp; Meatballs';
-                  img = 'img/food/Thursday-Spaghetti.png';
+                    img = 'img/food/Thursday-Spaghetti.png';
               }
               else if(n==5){
                   header = 'Catfish & White Beans';
-                  img = 'img/food/Friday-Catfish.png';
+                    img = 'img/food/Friday-Catfish.png';
               }
-              document.write('<h3>Today: ' + header + '!</h3> <a class="scroll" href="#food"><img src="' + img + '"; width="131" height="131" class="square-photos" alt="Free Lunch"></a>')
+              document.write('<h3>Today: ' + header + '!</h3> <a class="scroll" href="#food"><img src="' + img + '"; width="131" height="131" class="square-photos feature-photo" alt="Free Lunch"></a>')
               </script>
             </div>  
           </div>
           <div class="col-lg-4 col-md-4 col-sm-4">
             <div class="feature-img"><img src="img/images_web/Events-Small.png" class="top-section-headers" alt="Events"></div>
             <h3>See the Photos!</h3>
-            <a class="scroll" href="#events"><img src="img/Party-Thumbnails/Event-Thumbnail.png" width="131" height="131" class="square-photos event-img" alt="Free Lunch"></a>
+            <a class="scroll" href="#photos"><img src="img/Party-Thumbnails/Event-Thumbnail.png" width="131" height="131" class="square-photos event-img feature-photo" alt="Free Lunch"></a>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-4">
             <div class="feature-img"><img src="img/images_web/VIP-Access.png" class="top-section-headers" alt="VIP Access"/></div>
@@ -140,13 +140,9 @@
             <script>MktoForms2.loadForm("//app-ab03.marketo.com", "634-KAC-055", 1109);</script>
             </p>
             <h3 class="follow-us">Follow Us!</h3>
-            <div class="col-lg-4 col-md-4 col-sm-1">
+            <div class="col-lg-12 col-md-12 col-sm-12">
               <a href="https://www.facebook.com/CrazyHorseCabaret" target="_blank"><img src="img/Icons/Facebook-Icon.png" alt="Facebook" class="social-icons facebook"/></a>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-1">
               <a href="https://twitter.com/crazyhorsecab" target="_blank"><img src="img/Icons/Twitter-Icon.png" alt="Twitter" class="social-icons"/></a>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-1">
               <a href="http://www.yelp.com/biz/crazy-horse-cabaret-port-allen-2" target="_blank"><img src="img/Icons/Yelp-Icon.png" alt="Yelp" class="social-icons yelp"/></a>
             </div>
           </div>
@@ -173,13 +169,27 @@
                 <span><h5>Beer and Cocktail Specials<br>Monday - Friday 5:00pm - 7:00 pm</h5></span>
               </div>
             	<div class="col-lg-6 col-md-6 animated fadeInLeft photo-subtext">
-                <img src="img/food/Happy-Hour-Beer.png" class="square-photos" alt="$3 Domestic Beers"/>
+                <script type="text/javascript">
+                if(window.innerWidth<768){
+                  document.write('<img src="img/food/Food-Mobile/Happy-Hour-Beer-Mobile.png" class="mobile-photos" alt="$3 Domestic Beers"/>')
+                }
+                else{
+                  document.write('<img src="img/food/Happy-Hour-Beer.png" class="square-photos" alt="$3 Domestic Beers"/>')
+                }
+                </script>
                 <p>$3 Domestic Beers</p>
               </div>
             	<div class="col-lg-6 col-md-6 animated fadeInRight photo-subtext">
                 <div class="row">
                   <div class="col-lg-12">
-                    <img src="img/food/Happy-Hour-Cocktail.png" class="square-photos" alt="$3 Well Cocktails"/>
+                    <script type="text/javascript">
+                    if(window.innerWidth<768){
+                      document.write('<img src="img/food/Food-Mobile/Happy-Hour-Cocktail-Mobile.png" class="mobile-photos" alt="$3 Well Cocktails"/>');
+                    }
+                    else{
+                      document.write('<img src="img/food/Happy-Hour-Cocktail.png" class="square-photos" alt="$3 Well Cocktails"/>');
+                    }
+                    </script>    
                     <p class="double-space-bottom">$3 Well Cocktails</p>
                   </div>
                 </div>
@@ -191,21 +201,6 @@
               <div class="tab-header">
                 <span><h5>Sit down for a complementary lunch<br>and enjoy the view.</h5></span>
               </div>
-            	<!--<div class="col-lg-4 col-md-4 animated fadeInLeft photo-subtext">
-                <img src="img/features/2.png" alt="Font Icons"/>
-                <p>Monday:</p>
-                <p>Red Beans &amp; Rice</p>
-              </div>
-            	<div class="col-lg-4 col-md-4 animated fadeInRight photo-subtext">
-                <h2>[Photo]</h2>
-                <p>Tuesday:</p>
-                <p>Jambalaya</p>
-              </div>
-              <div class="col-lg-4 col-md-4 animated fadeInRight photo-subtext">
-                <h2>[Photo]</h2>
-                <p>Wednesday:</p>
-                <p>Chicken Fried Steak</p>
-              </div>-->
               <script type="text/javascript">
               var today = '';
               var tomorrow = '';
@@ -217,6 +212,18 @@
               var wednesday = 'img/food/Wednesday-ChxFriedSteak.png" class="square-photos" alt="Chicken Fried Steak"/><h4>Wednesday:</h4><p>Chicken Fried Steak</p></div>'
               var thursday = 'img/food/Thursday-Spaghetti.png" class="square-photos" alt="Spaghetti &amp; Meatballs"/><h4>Thursday:</h4><p>Spaghetti &amp; Meatballs</p></div>'
               var friday = 'img/food/Friday-Catfish.png" class="square-photos" alt="Catfish &amp; White Beans"/><h4>Friday:</h4><p>Catfish &amp; White Beans</p></div>'
+              var monday_mobile = 'img/food/Food-Mobile/Monday-Redbeans-Mobile.png" class="mobile-photos" alt="Red Beans &amp; Rice"/><h4>Monday:</h4><p>Red Beans &amp; Rice</p></div>'
+              var tuesday_mobile = 'img/food/Food-Mobile/Tuesday-Jambalaya-Mobile.png" class="mobile-photos" alt="Jambalaya"/><h4>Tuesday:</h4><p>Jambalaya</p></div>'
+              var wednesday_mobile = 'img/food/Food-Mobile/Wednesday-ChxFriedSteak-Mobile.png" class="mobile-photos" alt="Chicken Fried Steak"/><h4>Wednesday:</h4><p>Chicken Fried Steak</p></div>'
+              var thursday_mobile = 'img/food/Food-Mobile/Thursday-Spaghetti-Mobile.png" class="mobile-photos" alt="Spaghetti &amp; Meatballs"/><h4>Thursday:</h4><p>Spaghetti &amp; Meatballs</p></div>'
+              var friday_mobile = 'img/food/Food-Mobile/Friday-Catfish-Mobile.png" class="mobile-photos" alt="Catfish &amp; White Beans"/><h4>Friday:</h4><p>Catfish &amp; White Beans</p></div>'
+              if(window.innerWidth<768){
+                monday = monday_mobile;
+                tuesday = tuesday_mobile;
+                wednesday = wednesday_mobile;
+                thursday = thursday_mobile;
+                friday = friday_mobile;
+                }
               if(n==1){
                   today = monday;
                   tomorrow = tuesday;
@@ -254,7 +261,14 @@
                 <span><h5>Dinner Menu<br>7 Days a Week 5:00pm - 1:00am</h5></span>
               </div>
               <div class="col-lg-4 col-md-4 animated fadeInLeft photo-subtext">
-                <img src="img/food/Appetizer-CHX-Wings.png" class="square-photos" alt="Font Icons"/>
+                <script type="text/javascript">
+                    if(window.innerWidth<768){
+                      document.write('<img src="img/food/Food-Mobile/CHX-Wings-Mobile.png" class="mobile-photos" alt=""/>');
+                    }
+                    else{
+                      document.write('<img src="img/food/Appetizer-CHX-Wings.png" class="square-photos" alt=""/>');
+                    }
+                </script>   
                 <h4>Appetizers, $6</h4>
                 <p>Buffalo Wings ($8)<br>
                     Cheese Sticks<br>
@@ -263,14 +277,28 @@
                     Crazy Horse Sampler ($8)</p>
               </div>
               <div class="col-lg-4 col-md-4 animated fadeInRight photo-subtext">
-                <img src="img/food/Side-Onion Rings.png" class="square-photos" alt="Font Icons"/>
+                <script type="text/javascript">
+                    if(window.innerWidth<768){
+                      document.write('<img src="img/food/Food-Mobile/Side-Onion-Rings-Mobile.png" class="mobile-photos" alt=""/>');
+                    }
+                    else{
+                      document.write('<img src="img/food/Side-Onion Rings.png" class="square-photos" alt=""/>');
+                    }
+                </script>   
                 <h4>Sides, $3</h4>
                 <p>French Fries<br>
                 Sweet Potato Fries<br>
                 Onion Rings</p>
               </div>
               <div class="col-lg-4 col-md-4 animated fadeInRight photo-subtext">
-                <img src="img/food/Entree-Alfredo.png" class="square-photos" alt="Font Icons"/>
+                <script type="text/javascript">
+                    if(window.innerWidth<768){
+                      document.write('<img src="img/food/Food-Mobile/Alfredo-Mobile.png" class="mobile-photos" alt=""/>');
+                    }
+                    else{
+                      document.write('<img src="img/food/Entree-Alfredo.png" class="square-photos" alt=""/>');
+                    }
+                </script>   
                 <h4>Entrees, $8</h4>
                 <p>Fettuccini Alfredo<br>
                 Chicken Salad (Fried or Grilled)<br>
@@ -296,25 +324,25 @@
         <div class="row">
           <ul class="gallery">
             <li>
-              <a href="#" data-largesrc="img/Party-Thumbnails/Christmas-Party.png" data-title="Christmas Party" data-description="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.">
+              <a href="xmas_2014.html" data-largesrc="img/Party-Thumbnails/Christmas-Party.png" data-title="Christmas Party" data-description="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.">
                 <img src="img/Party-Thumbnails/Christmas-Party.png" alt="Christmas Party"/>
                 <span class="img-caption">Christmas Party</span>
               </a>
             </li>
             <li>
-              <a href="#" data-largesrc="img/Party-Thumbnails/Halloween-Party.png" data-title="Halloween Party" data-description="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.">
+              <a href="halloween_party.html" data-largesrc="img/Party-Thumbnails/Halloween-Party.png" data-title="Halloween Party" data-description="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.">
                 <img src="img/Party-Thumbnails/Halloween-Party.png" alt="Halloween Party"/>
                 <span class="img-caption">Halloween Party</span>
               </a>
             </li>
             <li>
-              <a href="#" data-largesrc="img/Party-Thumbnails/Luau-Party.png" data-title="Luau Party" data-description="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.">
+              <a href="luau_party.html" data-largesrc="img/Party-Thumbnails/Luau-Party.png" data-title="Luau Party" data-description="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.">
                 <img src="img/Party-Thumbnails/Luau-Party.png" alt="Luau Party"/>
                 <span class="img-caption">Luau Party</span>
               </a>
             </li>
             <li>
-              <a href="#" data-largesrc="img/Party-Thumbnails/Masquerade-Party.png" data-title="Masquerade Party" data-description="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.">
+              <a href="masquerade_party.html" data-largesrc="img/Party-Thumbnails/Masquerade-Party.png" data-title="Masquerade Party" data-description="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.">
                 <img src="img/Party-Thumbnails/Masquerade-Party.png" alt="Masquerade Party"/>
                 <span class="img-caption">Masquerade Party</span>
               </a>
@@ -456,7 +484,7 @@
             </div>
           </div>
         	<div class="col-lg-6 col-md-6 col-sm-6 photo-subtext">
-          <img src="img/images_web/Careers-Photo.png" class="" width="90%" alt="Careers"/>
+          <img src="img/images_web/Careers-Photo.png" class="career-photo" alt="Careers"/>
           </div>
         </div>
       </div>
@@ -486,7 +514,7 @@
             </div>
           </div>
           <div class="col-lg-6 col-md-6">
-            <div class="row width-correction">
+            <div class="row map-container">
               <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3439.6359312420677!2d-91.24684099999999!3d30.446420999999997!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86241e642afdfb8d%3A0x3f4c607dba7f5f31!2sCrazy+Horse+Cabaret!5e0!3m2!1sen!2sus!4v1429133140972" width="100%" height="330" frameborder="0" style="border:0"></iframe>
             </div>
           </div>
