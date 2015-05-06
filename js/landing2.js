@@ -25,7 +25,7 @@ $(document).ready(function(e) {
 		$('.main-navi').toggleClass('open');
 	});
 
-	$('.main-navi .has-dropdown a i').click(function(){
+	$('.main-navi').on('click',function(){
 		$('.main-navi').toggleClass('open');
 	});
 

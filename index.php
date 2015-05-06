@@ -60,7 +60,7 @@
         <nav class="main-navi">
         	<ul>
           	<li class="active"><a class="scroll-up" href="#">Home</a></li>
-            <li class=""><a class="scroll" href="#food">Food &amp; Drinks</a>
+            <li class=""><a class="scroll list-test" href="#food">Food &amp; Drinks</a>
             <!--<ul class="dropdown">
                 <li><a href="#happy-hour">Happy Hour</a></li>
                 <li><a href="#free-lunch">Free Lunch</a></li>
@@ -155,7 +155,7 @@
               </script>
             </div>  
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-4">
+          <div class="col-lg-4 col-md-4 col-sm-12">
             <div class="feature-img"><a href="#photos"><img src="img/images_web/Events-Small.png" class="top-section-headers" alt="Events"></a></div>
             <h3>See the Photos!</h3>
             <a class="scroll" href="#photos">
@@ -169,7 +169,7 @@
             </script>
             </a>
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-4">
+          <div class="col-lg-4 col-md-4 col-sm-12">
             <div class="feature-img"><img src="img/images_web/VIP-Access.png" class="top-section-headers" alt="VIP Access"/></div>
             <h3>Sign up to recieve a free admission, exclusive invites, and other goodies!</h3>
             <p>

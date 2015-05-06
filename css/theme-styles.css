@@ -1968,7 +1968,7 @@ img {
 /*Features
 ---------------------------------------------------------*/
 .features {
-	margin: 0 45px 90px 0;
+	/*margin: 0 45px 90px 0;*/
 	text-align: center;
 }
 .features .feature-img {
@@ -2747,7 +2747,7 @@ div.line {
 	.gall-expander h3 { font-size: 32px; }
 	.gall-expander p { font-size: 13px; margin-bottom: 25px; }
 	.gall-expander a { font-size: 12px; }
-	.features { margin-bottom: 60px; }
+	/*.features { margin-bottom: 60px; }*/
 	.page-header { margin-bottom: 35px; }
 	.social-networks {padding-top: 30px;}
 	.color-switcher { display: none; }
@@ -2787,7 +2787,7 @@ div.line {
 		width: 10px;
 		height: 10px;
 	}
-	.features div { margin-bottom: 50px; }
+	/*.features div { margin-bottom: 50px; }*/
 	.pricing-plan { margin-bottom: 30px; }
 	.faq img { margin-bottom: 25px; }
 	.team .social-networks a { margin: 0 20px 40px 20px; }
@@ -3074,9 +3074,6 @@ div.line {
 		margin-left: auto;
 		margin-right: auto;
 	}
-	#features{
-		padding-left: 10%;
-	}
 	.container{
 	}
 	body{
@@ -3084,7 +3081,7 @@ div.line {
 	}
 }
 
-/*Browser Only CSS Mods*/
+/*Desktop Only CSS Mods*/
 @media screen and (min-width: 992px){
 	.location-text{
 			text-align: left;
@@ -3111,6 +3108,9 @@ div.line {
 		margin-left: 30px;
 		margin-right: 30px;
 	}
+	#photos{
+		padding-top: 40px;
+	}
 }
 
 /*Tablet & Mobile CSS Mods*/
@@ -3118,8 +3118,8 @@ div.line {
 	.space-top{margin-top: 5px !important;}
 	.location-text{text-align: center !important;}
 	.gallery li {
-		width: 40%;
-		height: 40%;
+		width: 80%;
+		height: 80%;
 	}
 	.footer-img{
 		margin-left: auto;
@@ -3131,7 +3131,7 @@ div.line {
 	}
 }
 
-/*Browser & Tablet CSS Mods*/
+/*Desktop & Tablet CSS Mods*/
 @media screen and (min-width: 767px){
 	/*.facebook{float:right;}
 	.yelp{float:left;}*/
