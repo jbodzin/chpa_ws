@@ -24,7 +24,11 @@ $(document).ready(function(e) {
 	$('.navi-toggle').on('click',function(){
 		$('.main-navi').toggleClass('open');
 	});
-	
+
+	$('.main-navi .has-dropdown a i').click(function(){
+		$('.main-navi').toggleClass('open');
+	});
+
 	$('.main-navi .has-dropdown a i').click(function(){
 		$(this).parent().parent().find('.dropdown').toggleClass('expanded');
 		return false
