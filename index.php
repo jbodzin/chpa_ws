@@ -90,6 +90,10 @@
             }
           </script>
         </div>
+    </section>
+    
+    <!--Features-->
+    <section id="features">   
         <div class="row features">
           <div class="col-lg-4 col-md-4 col-sm-4">
 
@@ -147,12 +151,12 @@
                     img = 'img/food/Food-Mobile/Friday-Catfish-Mobile.png';
                   }
               }
-              document.write('<h3>Today: ' + header + '!</h3> <a class="scroll" href="#food"><img src="' + img + '"; class="square-photos feature-photo" alt="Free Lunch"></a>')
+              document.write('<h3>Today: ' + header + '!</h3> <a class="scroll" href="#food"><img src="' + img + '"; class="square-photos feature-photo mobile-photos" alt="Free Lunch"></a>')
               </script>
             </div>  
           </div>
           <div class="col-lg-4 col-md-4 col-sm-4">
-            <div class="feature-img"><img src="img/images_web/Events-Small.png" class="top-section-headers" alt="Events"></div>
+            <div class="feature-img"><a href="#photos"><img src="img/images_web/Events-Small.png" class="top-section-headers" alt="Events"></a></div>
             <h3>See the Photos!</h3>
             <a class="scroll" href="#photos">
             <script type="text/javascript">
@@ -181,9 +185,11 @@
             </div>
           </div>
         </div>
-      </div>
-      <!--Tabs-->
-      <div class="container-fluid" id="food">
+    </section>    
+
+    <!--Food & Drink-->
+    <section id="food">
+      <div class="container-fluid">
         <div class="row page-header">
           <img style="margin-bottom: 5px;" src="img/images_web/Food-&-Drinks.png" alt="Photos" class="section-header"/>
           <!-- Nav tabs -->
@@ -200,7 +206,7 @@
           <div class="tab-pane fade in col-lg-12" id="happy-hour">
           	<div class="row">
               <div class="tab-header">
-                <span><h5>Beer and Cocktail Specials<br>Monday - Friday 5:00pm - 7:00 pm</h5></span>
+                <span><h5>Beer and Cocktail Specials</h5><h6>Monday - Friday 5:00pm - 7:00 pm</h6></span>
               </div>
             	<div class="col-lg-6 col-md-6 animated fadeInLeft photo-subtext">
                 <script type="text/javascript">
@@ -233,7 +239,7 @@
           <div class="tab-pane fade in active col-lg-12" id="free-lunch">
           	<div class="row">
               <div class="tab-header">
-                <span><h5>Sit down for a complementary lunch<br>and enjoy the view.</h5></span>
+                <span><h5>Sit down for a complementary lunch<br>and enjoy the view.</h5><h6>Monday - Friday 11:00am - 2:00 pm</h6></span>
               </div>
               <script type="text/javascript">
               var today = '';
@@ -292,7 +298,7 @@
           <div class="tab-pane fade col-lg-12" id="dinner">
           	           <div class="row">
               <div class="tab-header">
-                <span><h5>Dinner Menu<br>7 Days a Week 5:00pm - 1:00am</h5></span>
+                <span><h5>Dinner Menu</h5><h6>7 Days a Week 5:00pm - 1:00am</h6></span>
               </div>
               <div class="col-lg-4 col-md-4 animated fadeInLeft photo-subtext">
                 <script type="text/javascript">
@@ -510,14 +516,14 @@
           <img src="img/images_web/Careers.png" class="section-header" alt="Careers"/>
         </div>
         <div class="row">
-        	<div class="col-lg-6 col-md-6 col-sm-6">
+        	<div class="col-lg-4 col-md-4 col-sm-6">
             <div class="career-text">
             	<h3>We're always looking for new talent!</h3>
               <p>Whether it be on stage, on the floor, behind the bar or at the door, if you feel you would be an asset, come in to submit an application.</p>
               <p>Give us a call, drop off a resume, or send us an email. Contact information is below.</p>
             </div>
           </div>
-        	<div class="col-lg-6 col-md-6 col-sm-6 photo-subtext">
+        	<div class="col-lg-8 col-md-8 col-sm-6 photo-subtext">
           <img src="img/images_web/Careers-Photo.png" class="career-photo" alt="Careers"/>
           </div>
         </div>
@@ -540,7 +546,7 @@
             </div>
             <div class="row location-text">
               <div class="col-lg-12">
-                <p><b>Address:</b><br>
+                <p>
                 2901 I-10 Frontage Road<br>
                 Port Allen, LA 70767<br>
                 (225) 387-6444</p>
@@ -555,7 +561,7 @@
           <div class="col-lg-3 col-md-3">
             <div class="row space-bottom location-text">
               <div class="col-lg-8 col-md-8">
-                <h3>Hours:</h3>
+                <h3>Hours</h3>
               </div>
             </div>
             <div class="row location-text">
