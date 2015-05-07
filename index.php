@@ -364,25 +364,25 @@
         <div class="row">
           <ul class="gallery">
             <li>
-              <a href="xmas_2014.html" data-largesrc="img/Party-Thumbnails/Christmas-Party.png" data-title="Christmas Party" data-description="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.">
+              <a href="xmas_2014.html" data-largesrc="img/Party-Thumbnails/Christmas-Party.png" data-title="Christmas Party" data-description="Some were nice, most were naughty, and everyone got exactly what they asked for. The Winter Fantasyland Xmas Party was amazing. Check out all the photos, and get ready for next year.">
                 <img src="img/Party-Thumbnails/Christmas-Party.png" alt="Christmas Party"/>
-                <span class="img-caption">Christmas Party</span>
+                <span class="img-caption">Christmas Party 2014</span>
               </a>
             </li>
             <li>
-              <a href="halloween_party.html" data-largesrc="img/Party-Thumbnails/Halloween-Party.png" data-title="Halloween Party" data-description="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.">
+              <a href="halloween_party.html" data-largesrc="img/Party-Thumbnails/Halloween-Party.png" data-title="Halloween Party" data-description="Whats better than sexy girls in costume? You guessed it. Sexy girls out of costume. Our annual Halloween Party was spooky awesome. There's no better place to celebrate. No trickery involved, we have the best treats. See the gallery and get your costume ready for next year.">
                 <img src="img/Party-Thumbnails/Halloween-Party.png" alt="Halloween Party"/>
-                <span class="img-caption">Halloween Party</span>
+                <span class="img-caption">Halloween Party 2014</span>
               </a>
             </li>
             <li>
-              <a href="luau_party.html" data-largesrc="img/Party-Thumbnails/Luau-Party.png" data-title="Luau Party" data-description="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.">
+              <a href="luau_party.html" data-largesrc="img/Party-Thumbnails/Luau-Party.png" data-title="Luau Party" data-description="Aloha, what better way to get down than a luau. The pig roast was incredible. The tiki drinks were flowing. Tons of beautiful girls on stage in bikinis, and the party really started when the tops came off. See all the photos.">
                 <img src="img/Party-Thumbnails/Luau-Party.png" alt="Luau Party"/>
                 <span class="img-caption">Luau Party</span>
               </a>
             </li>
             <li>
-              <a href="masquerade_party.html" data-largesrc="img/Party-Thumbnails/Masquerade-Party.png" data-title="Masquerade Party" data-description="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.">
+              <a href="masquerade_party.html" data-largesrc="img/Party-Thumbnails/Masquerade-Party.png" data-title="Masquerade Party" data-description="What's life without a little mystery? The incredible Crazy Horse Cabaret girls performed in masks, and hardly anything else. It was another wild party, and we're sorry to anyone who didn't get to see it in person, but you can see all the action in the photo gallery.">
                 <img src="img/Party-Thumbnails/Masquerade-Party.png" alt="Masquerade Party"/>
                 <span class="img-caption">Masquerade Party</span>
               </a>
@@ -487,7 +487,7 @@
                 <span class=""></span>
               </div>
               <div class="body">
-                <p>Well - $200<br>Premium - $250<br>Super Premium - $300</p>
+                <p>Well<br>Premium<br>Super Premium</p>
               </div>
             </div>  
           </div>
@@ -498,10 +498,10 @@
             </div>
             <div class="body align-bottle-service">
               <div class="champagne-list col-lg-4 col-md-6 col-sm-6">
-                <p>House - $50<br>Rosa - $100<br>Moet - $150<br>PJ - $200</p>
+                <p>House<br>Rosa<br>Moet<br>PJ</p>
               </div> 
               <div class="col-lg-6 col-md-6 col-sm-6">
-                <p>Dom Perigion - $300<br>Ace of Spades - $500<br>Ace of Spades Rose - $1000</p>
+                <p>Dom Perigion<br>Ace of Spades<br>Ace of Spades Rose</p>
               </div>
             </div>
           </div>
