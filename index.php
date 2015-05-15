@@ -95,7 +95,7 @@
     <!--Features-->
     <section id="features">   
         <div class="row features">
-          <div class="col-lg-4 col-md-4 col-sm-4">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 
             <div class="feature-img">
               <a class="scroll" href="#food"><img src="img/images_web/Free-Lunch.png" class="top-section-headers" alt="Free-Lunch"/></a>
@@ -155,7 +155,7 @@
               </script>
             </div>  
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <div class="feature-img"><a href="#photos"><img src="img/images_web/Events-Small.png" class="top-section-headers" alt="Events"></a></div>
             <h3>See the Photos!</h3>
             <a class="scroll" href="#photos">
@@ -169,7 +169,7 @@
             </script>
             </a>
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <div class="feature-img"><img src="img/images_web/VIP-Access.png" class="top-section-headers" alt="VIP Access"/></div>
             <h3>Sign up to recieve a free admission, exclusive invites, and other goodies!</h3>
             <p>
@@ -387,7 +387,12 @@
                 <span class="img-caption">Masquerade Party</span>
               </a>
             </li>
-            <!--<li>
+            <li>
+              <a href="interior.html" data-largesrc="img/Party-Thumbnails/Interior-Photos-Thumbnail.png" data-title="Interior" data-description="‎The newly renovated club looks better than ever. Come see what we're working with, take a look for yourself. ">
+                <img src="img/Party-Thumbnails/Interior-Photos-Thumbnail.png" alt="Interior"/>
+                <span class="img-caption">Interior</span>
+              </a>
+            </li>            <!--<li>
               <a href="#" data-largesrc="img/Party-Thumbnails/Car-Show.png" data-title="Car Show " data-description="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.">
                 <img src="img/Party-Thumbnails/Car-Show.png" alt="Car Show"/>
                 <span class="img-caption">Car Show</span>

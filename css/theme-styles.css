@@ -3185,10 +3185,13 @@ div.line {
 	h3{
 		font-size: 1.2em !important;
 	}
+	.gallery li > a img {
+		width:100% !important;
+	}
 }
 
 /*All Tablets*/
-@media screen and (min-width: 768px) and (max-width: 1199px){}
+@media screen and (min-width: 768px) and (max-width: 1199px){
 	/*.event-img{
 		margin-top: 49px;
 	}*/
@@ -3197,7 +3200,7 @@ div.line {
 /* Large Tablet Only*/
 @media screen and (min-width: 991px) and (max-width: 1199px){
 	body.space-top {
-		padding-top: 80px !important;
+		padding-top: 0px !important;
 	}
 	.gallery{
 		margin: 0px 0px 0px -10px;
@@ -3205,5 +3208,15 @@ div.line {
 	.social-icons{
 		margin-left: 10px !important;
 		margin-right: 10px !important;
+	}
+	.main-navi ul li a {
+		font-size: .8em !important;
+	}
+	.social-icons {
+	    margin-left: 10px;
+	    margin-right: 10px;
+	}
+	#food{
+		 margin-top: 65px;
 	}
 }
