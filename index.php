@@ -109,10 +109,10 @@
               if(n==1){
                   header = 'Red Beans &amp; Rice';
                   if(window.innerWidth>768){
-                    document.write(img = 'img/food/Monday-Redbeans.png');
+                    img = 'img/food/Monday-Redbeans.png';
                   }
                   else{
-                    document.write(img = 'img/food/Food-Mobile/Monday-Redbeans-Mobile.png');
+                    img = 'img/food/Food-Mobile/Monday-Redbeans-Mobile.png';
                   }
               }
               else if(n==2){
