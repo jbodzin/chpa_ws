@@ -3167,7 +3167,7 @@ div.line {
 
 	.section-header{margin-top: -25px;}
 	.gallery{
-		margin: 0px 0px 0px 40px;
+		margin: 0px 0px 0px 0px;
 	}
 	.square-photos{
 		height: 100% !important; 
@@ -3187,6 +3187,9 @@ div.line {
 	}
 	.gallery li > a img {
 		width:100% !important;
+	}
+	.gallery li {
+    	width: 40%;
 	}
 }
 

@@ -7,9 +7,9 @@
   <head>
     <meta charset="utf-8">
     <title>Crazy Horse Cabaret Port Allen</title>
-    <meta name="description" content="Ultimate Responsive HTML5 Landing Page" />
-		<meta name="keywords" content="responsive html5 template, landing page, bootstrap 3.0, css, jquery" />
-		<meta name="author" content="8Guild" />
+    <meta name="description" content="Crazy Horse Cabaret Port Allen" />
+		<meta name="keywords" content="strip club, bar, gentlemens club, night club, free lunch" />
+		<meta name="author" content="Crazy Horse Cabaret Port Allen" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <!--Favicon-->
     <link rel="shortcut icon" href="img/Icons/CH-Favicon-Blue.png" type="image/x-icon">
