@@ -67,6 +67,7 @@
                 <li><a href="#dinner">Dinner</a></li>
               </ul>--></li>
             <li class=""><a class="scroll" href="#photos">Photos</a></li>
+            <li class=""><a class="scroll" href="#events">Events</a></li>
             <li class=""><a class="scroll" href="#bottle-service">Bottle Service</a></li>
             <li class=""><a class="scroll" href="#careers">Careers</a></li>
             <li class=""><a class="scroll" href="#location">Location &amp; Hours</a></li>
@@ -156,15 +157,15 @@
             </div>  
           </div>
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-            <div class="feature-img"><a href="#photos"><img src="img/images_web/Events-Small.png" class="top-section-headers" alt="Events"></a></div>
+            <div class="feature-img"><a href="#events"><img src="img/images_web/Events-Small.png" class="top-section-headers" alt="Events"></a></div>
             <h3>See the Photos!</h3>
-            <a class="scroll" href="#photos">
+            <a class="scroll" href="#events">
             <script type="text/javascript">
             if(window.innerWidth>767){
-                  document.write('<img src="img/Party-Thumbnails/Event-Thumbnail.png" class="square-photos event-img feature-photo" alt="Free Lunch">')
+                  document.write('<img src="img/Party-Photos/CHPA_80s.jpg" class="square-photos event-img feature-photo" alt="80&#146;s party">')
                 }
                 else{
-                  document.write('<img src="img/food/Food-Mobile/Event-Thumbnail-Mobile.png" class="mobile-photos" alt="Free Lunch">')
+                  document.write('<img src="img/food/Food-Mobile/CHPA_80s.png" class="mobile-photos" alt="Free Lunch">')
                 }
             </script>
             </a>
@@ -422,53 +423,21 @@
     </section>
   
       <!--Events-->
-    <!--<section class="page-block less-space-bottom" id="events">
+    <section class="page-block" id="events">
     	<div class="container">
         <div class="row page-header">
           <img src="img/images_web/Events.png" class="section-header" alt="Events"/>
         </div>
         <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-6 chart">
-            <h3>Line Chart</h3>
-            <canvas id="lineChart" width="550" height="320"></canvas>
+          <div class="col-lg-4 col-md-4 col-sm-3">
+            <img src="img/Party-Photos/CHPA_80s.jpg" alt="80&#146;s party" class="square-photos">
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-6 chart">
-            <h3>Bar Chart</h3>
-            <canvas id="barChart" width="550" height="320"></canvas>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-6 chart">
-            <h3>Pie Chart</h3>
-            <div class="group">
-              <div class="pie-chart">
-                <canvas id="pieChart" width="260" height="260"></canvas>
-              </div>
-              <div class="pie-chart-legend animated-legend">
-                <div style="color:#ff6f69;" class="label"><span>20%</span>Item01</div>
-                <div style="color:#e7e7ea;" class="label"><span>25%</span>Item02</div>
-                <div style="color:#313447;" class="label"><span>40%</span>Item01</div>
-                <div style="color:#ffad10;" class="label"><span>15%</span>Item02</div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-6 chart">
-            <h3>Doughnut Chart</h3>
-            <div class="group">
-              <div class="pie-chart">
-                <canvas id="doughnutChart" width="260" height="260"></canvas>
-              </div>
-              <div class="pie-chart-legend animated-legend">
-                <div style="color:#ff6f69;" class="label"><span>20%</span>Item01</div>
-                <div style="color:#e7e7ea;" class="label"><span>25%</span>Item02</div>
-                <div style="color:#313447;" class="label"><span>40%</span>Item01</div>
-                <div style="color:#ffad10;" class="label"><span>15%</span>Item02</div>
-              </div>
-            </div>
+          <div class="col-lg-5 col-lg-offset-1 col-md-5 col-sm-7">
+            <p style="font-size: 1.3em;">Boo-YAH! The Crazy Horse Cabaret 80s party kicks off Sunday, June 28th. It's gonna be totally rad, dude! $500 cash and goodies prize for the best 80s outfit. 2-4-1 drinks between 5-10pm. Door prizes and drink specials all night. Moon walk your way over for the hottest party of the last millennium (and this one).</p>
           </div>
         </div>
       </div>
-    </section>-->
+    </section>
     
     <!--Bottle Service--> 
     <section class="page-block" id="bottle-service">
