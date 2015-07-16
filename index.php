@@ -67,7 +67,7 @@
                 <li><a href="#dinner">Dinner</a></li>
               </ul>--></li>
             <li class=""><a class="scroll" href="#photos">Photos</a></li>
-            <li class=""><a class="scroll" href="#events">Events</a></li>
+<!--            <li class=""><a class="scroll" href="#events">Events</a></li> -->
             <li class=""><a class="scroll" href="#bottle-service">Bottle Service</a></li>
             <li class=""><a class="scroll" href="#careers">Careers</a></li>
             <li class=""><a class="scroll" href="#location">Location &amp; Hours</a></li>
@@ -162,10 +162,10 @@
             <a class="scroll" href="#events">
             <script type="text/javascript">
             if(window.innerWidth>767){
-                  document.write('<img src="img/Party-Photos/CHPA_80s.jpg" class="square-photos event-img feature-photo" alt="80&#146;s party">')
+                  document.write('<img src="img/Party-Photos/Event-Thumbnail.png" class="square-photos event-img feature-photo" alt="Events">')
                 }
                 else{
-                  document.write('<img src="img/food/Food-Mobile/CHPA_80s.png" class="mobile-photos" alt="Free Lunch">')
+                  document.write('<img src="img/Party-Photos/Event-Thumbnail.png" class="mobile-photos" alt="Free Lunch">')
                 }
             </script>
             </a>
@@ -422,7 +422,7 @@
       </div>
     </section>
   
-      <!--Events-->
+      <!--Events
     <section class="page-block" id="events">
     	<div class="container">
         <div class="row page-header">
@@ -438,7 +438,7 @@
         </div>
       </div>
     </section>
-    
+    -->
     <!--Bottle Service--> 
     <section class="page-block" id="bottle-service">
     	<div class="container">
