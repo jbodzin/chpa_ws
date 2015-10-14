@@ -157,15 +157,15 @@
             </div>  
           </div>
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-            <div class="feature-img"><a href="#events"><img src="img/images_web/Events-Small.png" class="top-section-headers" alt="Events"></a></div>
+            <div class="feature-img"><a href="#photos"><img src="img/images_web/Events-Small.png" class="top-section-headers" alt="Events"></a></div>
             <h3>See the Photos!</h3>
-            <a class="scroll" href="#events">
+            <a class="scroll" href="#photos">
             <script type="text/javascript">
             if(window.innerWidth>767){
-                  document.write('<img src="img/Party-Photos/Event-Thumbnail.png" class="square-photos event-img feature-photo" alt="Events">')
+                  document.write('<img src="img/Party-Photos/Events-Halloween.png" class="square-photos event-img feature-photo" alt="Events">')
                 }
                 else{
-                  document.write('<img src="img/Party-Photos/Event-Thumbnail.png" class="mobile-photos" alt="Free Lunch">')
+                  document.write('<img src="img/Party-Photos/Events-Halloween.png" class="mobile-photos" alt="Free Lunch">')
                 }
             </script>
             </a>
