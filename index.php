@@ -162,10 +162,10 @@
             <a class="scroll" href="#photos">
             <script type="text/javascript">
             if(window.innerWidth>767){
-                  document.write('<img src="img/Party-Photos/Events-xmas.jpg" class="square-photos event-img feature-photo" alt="Events">')
+                  document.write('<img src="img/Party-Photos/Event-Thumbnail.png" class="square-photos event-img feature-photo" alt="Events">')
                 }
                 else{
-                  document.write('<img src="img/Party-Photos/Events-xmas.jpg" class="mobile-photos" alt="Free Lunch">')
+                  document.write('<img src="img/Party-Photos/Event-Thumbnail.png" class="mobile-photos" alt="Free Lunch">')
                 }
             </script>
             </a>
