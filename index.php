@@ -34,6 +34,29 @@
       <script src="js/plugins/respond.min.js"></script>
       <script src="js/plugins/excanvas.js"></script>
     <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script type="text/javascript">
+    function cycleImages(){
+      var $active = $('#cycler .active');
+      var $next = ($active.next().length > 0) ? $active.next() : $('#cycler img:first');
+      $next.css('z-index',2);//move the next image up the pile
+      $active.fadeOut(1500,function(){//fade out the top image
+    $active.css('z-index',1).show().removeClass('active');//reset the z-index and unhide the image
+          $next.css('z-index',3).addClass('active');//make the next image the top one
+      });
+    }
+
+    $(document).ready(function(){
+    // run every 7s
+      setInterval('cycleImages()', 7000);
+    })
+
+    </script>
+    <style>
+      #cycler{position:relative;}
+      #cycler img{position:absolute;z-index:1}
+      #cycler img.active{z-index:3}
+    </style>
   </head>
 
   <!--Body-->
@@ -159,15 +182,19 @@
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <div class="feature-img"><a href="#photos"><img src="img/images_web/Events-Small.png" class="top-section-headers" alt="Events"></a></div>
             <h3>See the Photos!</h3>
-            <a class="scroll" href="#photos">
-            <script type="text/javascript">
+            <a class="scroll" href="#photos" id="cycler">
+           
+              <script type="text/javascript">
             if(window.innerWidth>767){
-                  document.write('<img src="img/Party-Photos/Event-Thumbnail.png" class="square-photos event-img feature-photo" alt="Events">')
+                  document.write('<img class="active" src="img/Party-Photos/SuperBowl_Web.jpg" class="square-photos event-img feature-photo" alt="Events"/>');
+                  document.write('<img src="img/Party-Photos/SuperBowl_Web02.jpg" class="square-photos event-img feature-photo" alt="Events"/>');
                 }
                 else{
-                  document.write('<img src="img/Party-Photos/Event-Thumbnail.png" class="mobile-photos" alt="Free Lunch">')
+                  document.write('<img class="active" src="img/Party-Photos/SuperBowl_Web.jpg" class="mobile-photos" alt="Free Lunch"/>');
+                  document.write('<img src="img/Party-Photos/SuperBowl_Web02.jpg" class="mobile-photos" alt="Free Lunch"/>');
                 }
             </script>
+          
             </a>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
