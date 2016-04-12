@@ -7,7 +7,7 @@
                 <a href="http://penthouseclubneworleans.com/" title="The Penthouse Club &#8211; New Orleans" target="_blank"><img src="/img/logos/ph-new-orleans.png"  alt="The Penthouse Club &#8211; New Orleans" class="footer-img" title="The Penthouse Club &#8211; New Orleans" /></a>
                 <a href="http://penthousebatonrouge.com/" title="The Penthouse Club &#8211; Baton Rouge" target="_blank"><img src="/img/logos/ph-baton-rouge.png"  alt="The Penthouse Club &#8211; Baton Rouge" class="footer-img" title="The Penthouse Club &#8211; Baton Rouge" /></a>
                 <a href="http://crazyhorsecabaret.com/" title="Crazy Horse Cabaret &#8211; Port Allen" target="_blank"><img src="/img/logos/chc-port-allen.png"  alt="Crazy Horse Cabaret &#8211; Port Allen" class="footer-img" title="Crazy Horse Cabaret &#8211; Port Allen" /></a>
-                <a href="http://crazyhorsecabaret2.com/" title="Crazy Horse Cabaret &#8211; Gonzales" target="_blank"><img src="/img/logos/chc-gonzales.png"  alt="Crazy Horse Cabaret &#8211; Gonzales" class="footer-img" title="Crazy Horse Cabaret &#8211; Gonzales" /></a>
+                <a href="http://goldclubgonzales.com/" title="Gold Club &#8211; Gonzales" target="_blank"><img src="/img/logos/gc-gonzales.png"  alt="Crazy Horse Cabaret &#8211; Gonzales" class="footer-img" title="Gold Club &#8211; Gonzales" /></a>
           </div>
          
           <div class="col-lg-12">
