@@ -15,7 +15,7 @@
           </div>
          
           <div class="col-lg-12">
-            <p class="copyright">&copy; 2015 Kirkendoll Management. All Rights Reserved.</p>
+            <p class="copyright">&copy; <?php echo date("Y"); ?> Kirkendoll Management. All Rights Reserved.</p>
           </div>
         </div>
       </div>
