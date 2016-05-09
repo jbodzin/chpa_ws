@@ -236,7 +236,7 @@
           <div class="tab-pane fade in col-lg-12" id="happy-hour">
           	<div class="row">
               <div class="tab-header">
-                <span><h5>Beer and Cocktail Specials</h5><h6>Monday - Friday 5:00pm - 7:00 pm</h6></span>
+                <span><h5>Beer and Cocktail Specials</h5><h6>Monday - Friday 3:00pm - 7:30pm</h6></span>
               </div>
             	<div class="col-lg-6 col-md-6 animated fadeInLeft photo-subtext">
                 <script type="text/javascript">
@@ -269,7 +269,7 @@
           <div class="tab-pane fade in active col-lg-12" id="free-lunch">
           	<div class="row">
               <div class="tab-header">
-                <span><h5>Sit down for a complementary lunch<br>and enjoy the view.</h5><h6>Monday - Friday 11:00am - 2:00 pm</h6></span>
+                <span><h5>Sit down for a complimentary lunch<br>and enjoy the view.</h5><h6>Monday - Friday 11:30am - 2:30 pm</h6></span>
               </div>
               <script type="text/javascript">
               var today = '';
@@ -569,9 +569,9 @@
             </div>
             <div class="row location-text">
               <div class="col-lg-12">
-                <p>Open 7 days a week<br>
-                Free Lunch: 11am until 2pm<br>
-                Happy Hour: 5pm until 7pm</p>
+                <p>Open 7 days a week<br><br>
+                Free Lunch Mon-Fri:<br>11:30am until 2:30pm<br><br>
+                Happy Hour Mon-Fri:<br>3pm until 7:30pm</p>
               </div>
             </div>
           </div>
