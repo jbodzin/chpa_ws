@@ -90,7 +90,7 @@
                 <li><a href="#dinner">Dinner</a></li>
               </ul>--></li>
             <li class=""><a class="scroll" href="#photos">Photos</a></li>
-<!--            <li class=""><a class="scroll" href="#events">Events</a></li> -->
+            <li class=""><a class="scroll" href="#events">Events</a></li>
             <li class=""><a class="scroll" href="#bottle-service">Bottle Service</a></li>
             <li class=""><a class="scroll" href="#careers">Careers</a></li>
             <li class=""><a class="scroll" href="#location">Location &amp; Hours</a></li>
@@ -180,18 +180,18 @@
             </div>  
           </div>
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-            <div class="feature-img"><a href="#photos"><img src="img/images_web/Events-Small.png" class="top-section-headers" alt="Events"></a></div>
-            <h3>See the Photos!</h3>
-            <a class="scroll" href="#photos" id="cycler-old">
+            <div class="feature-img"><a href="#events" class="scroll"><img src="img/images_web/Events-Small.png" class="top-section-headers" alt="Events"></a></div>
+            <a href="#photos" class="scroll" ><h3>See the Photos!</h3></a>
+            <a class="scroll" href="#events" id="cycler-old">
            
               <script type="text/javascript">
             if(window.innerWidth>767){
-                  document.write('<img src="img/Party-Photos/Event-Thumbnail.png" class="square-photos event-img feature-photo" alt="Events"/>');
+                  document.write('<img src="img/images_web/CHPA_Memorial-Party_WEB-1.jpg" class="square-photos event-img feature-photo" alt="Events"/>');
                   //document.write('<img class="active" src="img/Party-Photos/SuperBowl_Web.jpg" class="square-photos event-img feature-photo" alt="Events"/>');
                   //document.write('<img src="img/Party-Photos/SuperBowl_Web02.jpg" class="square-photos event-img feature-photo" alt="Events"/>');
                 }
                 else{
-                  document.write('<img src="img/Party-Photos/Event-Thumbnail.png" class="mobile-photos" alt="Free Lunch"/>');
+                  document.write('<img src="img/images_web/CHPA_Memorial-Party_WEB-1.jpg" class="mobile-photos" alt="Free Lunch"/>');
                   //document.write('<img class="active" src="img/Party-Photos/SuperBowl_Web.jpg" class="mobile-photos" alt="Free Lunch"/>');
                   //document.write('<img src="img/Party-Photos/SuperBowl_Web02.jpg" class="mobile-photos" alt="Free Lunch"/>');
                 }
@@ -451,7 +451,7 @@
       </div>
     </section>
   
-      <!--Events
+    <!--Events-->
     <section class="page-block" id="events">
     	<div class="container">
         <div class="row page-header">
@@ -459,15 +459,26 @@
         </div>
         <div class="row">
           <div class="col-lg-4 col-md-4 col-sm-3">
-            <img src="img/Party-Photos/CHPA_80s.jpg" alt="80&#146;s party" class="square-photos">
+            <img src="img/images_web/CHPA_Memorial-Party_WEB-2.jpg" alt="Memorial Day Party" class="square-photos">
           </div>
           <div class="col-lg-5 col-lg-offset-1 col-md-5 col-sm-7">
-            <p style="font-size: 1.3em;">Boo-YAH! The Crazy Horse Cabaret 80s party kicks off Sunday, June 28th. It's gonna be totally rad, dude! $500 cash and goodies prize for the best 80s outfit. 2-4-1 drinks between 5-10pm. Door prizes and drink specials all night. Moon walk your way over for the hottest party of the last millennium (and this one).</p>
+          <h3>MEMORIAL DAY FUNDRAISER</h3>
+            <h4>Want To Paint A Masterpiece?</h4>
+
+<p>Sunday, May 29th </p>
+<p>
+• Live Patriotic Body Painting Auctions lead by artist Alex Crappell<br>
+• All proceeds from the auction benefit our Troops                 <br>
+• Free Drinks 5-6 pm, 2-4-1 Drinks Between 6 & 8pm<br>
+• Complimentary Memorial Day Shot @ Midnight <br>
+• Door Prizes & Drink Specials All Night<br>
+• Full Bar till 2am   <br>
+</p>   
           </div>
         </div>
       </div>
     </section>
-    -->
+  
     <!--Bottle Service--> 
     <section class="page-block" id="bottle-service">
     	<div class="container">
