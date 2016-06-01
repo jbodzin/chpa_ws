@@ -205,7 +205,17 @@
             <p>
             <script src="//app-ab03.marketo.com/js/forms2/js/forms2.min.js"></script>
             <form id="mktoForm_1109"></form>
-            <script>MktoForms2.loadForm("//app-ab03.marketo.com", "634-KAC-055", 1109);</script>
+            <script>MktoForms2.loadForm("//app-ab03.marketo.com", "634-KAC-055", 1109, function(form){
+                            form.onSuccess(function(values, followUpUrl) {
+                            // Get the form's jQuery element and hide it
+                                form.getFormElem().hide();
+                                document.getElementById("signup-ty").style.display = "block";
+                                // Return false to prevent the submission handler from taking the lead to the follow up url
+                                return false;
+                            });
+                        });
+                    </script>
+                    <h1 id="signup-ty">Thank you for your feedback!</h1>
             </p>
             <h3 class="follow-us">Follow Us!</h3>
             <div class="col-lg-12 col-md-12 col-sm-12">
@@ -600,7 +610,17 @@
             <br></br>
             <script src="//app-ab03.marketo.com/js/forms2/js/forms2.min.js"></script>
             <form id="mktoForm_1110"></form>
-            <script>MktoForms2.loadForm("//app-ab03.marketo.com", "634-KAC-055", 1110);</script>
+            <script>MktoForms2.loadForm("//app-ab03.marketo.com", "634-KAC-055", 1110, function(form){
+                            form.onSuccess(function(values, followUpUrl) {
+                            // Get the form's jQuery element and hide it
+                                form.getFormElem().hide();
+                                document.getElementById("contact-ty").style.display = "block";
+                                // Return false to prevent the submission handler from taking the lead to the follow up url
+                                return false;
+                            });
+                        });
+                    </script>
+                    <h1 id="contact-ty">Thank you for your feedback!</h1>
           </div>  
         </div>
       </div>
