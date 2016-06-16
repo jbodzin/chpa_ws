@@ -394,6 +394,12 @@
         <div class="row">
           <ul class="gallery">
             <li>
+              <a href="memorial_day.html" data-largesrc="img/Party-Thumbnails/MemDayCover.jpg" data-title="Memorial Day Fundraiser" data-description="What better way to show  patriotism than painting the sexy Crazy Horse Cabaret girls in red, white and blue! Thanks to you, the Memorial Day Fundraiser was a great success. Check out the photos and keep on enjoying these beautiful works of art.">
+                <img src="img/Party-Thumbnails/MemDayCover.jpg" alt="Memorial Day Fundraiser"/>
+                <span class="img-caption">Memorial Day Fundraiser</span>
+              </a>
+            </li>
+            <li>
               <a href="xmas_2014.html" data-largesrc="img/Party-Thumbnails/Christmas-Party.png" data-title="Christmas Party" data-description="Some were nice, most were naughty, and everyone got exactly what they asked for. The Winter Fantasyland Xmas Party was amazing. Check out all the photos, and get ready for next year.">
                 <img src="img/Party-Thumbnails/Christmas-Party.png" alt="Christmas Party"/>
                 <span class="img-caption">Christmas Party 2014</span>
