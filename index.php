@@ -90,7 +90,7 @@
                 <li><a href="#dinner">Dinner</a></li>
               </ul>--></li>
             <li class=""><a class="scroll" href="#photos">Photos</a></li>
-            <li class=""><a class="scroll" href="#events">Events</a></li>
+            <!--<li class=""><a class="scroll" href="#events">Events</a></li>-->
             <li class=""><a class="scroll" href="#bottle-service">Bottle Service</a></li>
             <li class=""><a class="scroll" href="#careers">Careers</a></li>
             <li class=""><a class="scroll" href="#location">Location &amp; Hours</a></li>
@@ -180,18 +180,18 @@
             </div>  
           </div>
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-            <div class="feature-img"><a href="#events" class="scroll"><img src="img/images_web/Events-Small.png" class="top-section-headers" alt="Events"></a></div>
+            <div class="feature-img"><a href="#photos" class="scroll"><img src="img/images_web/Events-Small.png" class="top-section-headers" alt="Events"></a></div>
             <a href="#photos" class="scroll" ><h3>See the Photos!</h3></a>
-            <a class="scroll" href="#events" id="cycler-old">
+            <a class="scroll" href="#photos" id="cycler-old">
            
               <script type="text/javascript">
             if(window.innerWidth>767){
-                  document.write('<img src="img/images_web/CHPA_Memorial-Party_WEB-1.jpg" class="square-photos event-img feature-photo" alt="Events"/>');
+                  document.write('<img src="img/Party-Photos/Event-Thumbnail.png" class="square-photos event-img feature-photo" alt="Events"/>');
                   //document.write('<img class="active" src="img/Party-Photos/SuperBowl_Web.jpg" class="square-photos event-img feature-photo" alt="Events"/>');
                   //document.write('<img src="img/Party-Photos/SuperBowl_Web02.jpg" class="square-photos event-img feature-photo" alt="Events"/>');
                 }
                 else{
-                  document.write('<img src="img/images_web/CHPA_Memorial-Party_WEB-1.jpg" class="mobile-photos" alt="Free Lunch"/>');
+                  document.write('<img src="img/Party-Photos/Event-Thumbnail.png" class="mobile-photos" alt="Free Lunch"/>');
                   //document.write('<img class="active" src="img/Party-Photos/SuperBowl_Web.jpg" class="mobile-photos" alt="Free Lunch"/>');
                   //document.write('<img src="img/Party-Photos/SuperBowl_Web02.jpg" class="mobile-photos" alt="Free Lunch"/>');
                 }
@@ -205,7 +205,17 @@
             <p>
             <script src="//app-ab03.marketo.com/js/forms2/js/forms2.min.js"></script>
             <form id="mktoForm_1109"></form>
-            <script>MktoForms2.loadForm("//app-ab03.marketo.com", "634-KAC-055", 1109);</script>
+            <script>MktoForms2.loadForm("//app-ab03.marketo.com", "634-KAC-055", 1109, function(form){
+                            form.onSuccess(function(values, followUpUrl) {
+                            // Get the form's jQuery element and hide it
+                                form.getFormElem().hide();
+                                document.getElementById("signup-ty").style.display = "block";
+                                // Return false to prevent the submission handler from taking the lead to the follow up url
+                                return false;
+                            });
+                        });
+                    </script>
+                    <h1 id="signup-ty">Thank you for your feedback!</h1>
             </p>
             <h3 class="follow-us">Follow Us!</h3>
             <div class="col-lg-12 col-md-12 col-sm-12">
@@ -458,7 +468,7 @@
     </section>
   
     <!--Events-->
-    <section class="page-block" id="events">
+    <!--<section class="page-block" id="events">
     	<div class="container">
         <div class="row page-header">
           <img src="img/images_web/Events.png" class="section-header" alt="Events"/>
@@ -483,7 +493,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section>-->
   
     <!--Bottle Service--> 
     <section class="page-block" id="bottle-service">
@@ -606,7 +616,17 @@
             <br></br>
             <script src="//app-ab03.marketo.com/js/forms2/js/forms2.min.js"></script>
             <form id="mktoForm_1110"></form>
-            <script>MktoForms2.loadForm("//app-ab03.marketo.com", "634-KAC-055", 1110);</script>
+            <script>MktoForms2.loadForm("//app-ab03.marketo.com", "634-KAC-055", 1110, function(form){
+                            form.onSuccess(function(values, followUpUrl) {
+                            // Get the form's jQuery element and hide it
+                                form.getFormElem().hide();
+                                document.getElementById("contact-ty").style.display = "block";
+                                // Return false to prevent the submission handler from taking the lead to the follow up url
+                                return false;
+                            });
+                        });
+                    </script>
+                    <h1 id="contact-ty">Thank you for your feedback!</h1>
           </div>  
         </div>
       </div>

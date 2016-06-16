@@ -3040,6 +3040,14 @@ div.line {
 	margin-top: -150px;
 }
 
+#contact-ty{
+	display: none;
+}
+
+#signup-ty{
+	display: none;
+}
+
 /*Mobile Only CSS Mods*/
 @media screen and (max-width: 767px){
 	.bottle-service-header{
