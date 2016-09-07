@@ -90,7 +90,7 @@
                 <li><a href="#dinner">Dinner</a></li>
               </ul>--></li>
             <li class=""><a class="scroll" href="#photos">Photos</a></li>
-            <!--<li class=""><a class="scroll" href="#events">Events</a></li>-->
+            <li class=""><a class="scroll" href="#events">Events</a></li>
             <li class=""><a class="scroll" href="#bottle-service">Bottle Service</a></li>
             <li class=""><a class="scroll" href="#careers">Careers</a></li>
             <li class=""><a class="scroll" href="#location">Location &amp; Hours</a></li>
@@ -180,9 +180,9 @@
             </div>  
           </div>
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-            <div class="feature-img"><a href="#photos" class="scroll"><img src="img/images_web/Events-Small.png" class="top-section-headers" alt="Events"></a></div>
+            <div class="feature-img"><a href="#events" class="scroll"><img src="img/images_web/Events-Small.png" class="top-section-headers" alt="Events"></a></div>
             <a href="#photos" class="scroll" ><h3>See the Photos!</h3></a>
-            <a class="scroll" href="#photos" id="cycler-old">
+            <a class="scroll" href="#events" id="cycler-old">
            
               <script type="text/javascript">
             if(window.innerWidth>767){
@@ -468,32 +468,29 @@
     </section>
   
     <!--Events-->
-    <!--<section class="page-block" id="events">
+    <section class="page-block" id="events">
     	<div class="container">
         <div class="row page-header">
           <img src="img/images_web/Events.png" class="section-header" alt="Events"/>
         </div>
         <div class="row">
           <div class="col-lg-4 col-md-4 col-sm-3">
-            <img src="img/images_web/CHPA_Memorial-Party_WEB-2.jpg" alt="Memorial Day Party" class="square-photos">
+            <img src="img/images_web/Anniversary.jpg" alt="Masquerade Party" class="square-photos">
           </div>
           <div class="col-lg-5 col-lg-offset-1 col-md-5 col-sm-7">
-          <h3>MEMORIAL DAY FUNDRAISER</h3>
-            <h4>Want To Paint A Masterpiece?</h4>
-
-<p>Sunday, May 29th </p>
-<p>
-• Live Patriotic Body Painting Auctions lead by artist Alex Crappell<br>
-• All proceeds from the auction benefit our Troops                 <br>
-• Free Drinks 5-6 pm, 2-4-1 Drinks Between 6 & 8pm<br>
-• Complimentary Memorial Day Shot @ Midnight <br>
-• Door Prizes & Drink Specials All Night<br>
-• Full Bar till 2am   <br>
-</p>   
+          <h3>Anniversary Masquerade Party</h3>
+          <p>Sunday, Sept. 4th, 2016</p>
+          <p>
+          Door Prizes & Drink Specials All Night!<br><br>
+          FREE Drinks Between 5 & 6pm<br>
+          2-4-1 Drinks Between 6 & 9pm<br>
+          Full Bar till 2am<br><br>
+          Free admission for anyone in mask. 
+          </p>   
           </div>
         </div>
       </div>
-    </section>-->
+    </section>
   
     <!--Bottle Service--> 
     <section class="page-block" id="bottle-service">
