@@ -90,7 +90,7 @@
                 <li><a href="#dinner">Dinner</a></li>
               </ul>--></li>
             <li class=""><a class="scroll" href="#photos">Photos</a></li>
-            <li class=""><a class="scroll" href="#events">Events</a></li>
+            <!--<li class=""><a class="scroll" href="#events">Events</a></li>-->
             <li class=""><a class="scroll" href="#bottle-service">Bottle Service</a></li>
             <li class=""><a class="scroll" href="#careers">Careers</a></li>
             <li class=""><a class="scroll" href="#location">Location &amp; Hours</a></li>
@@ -180,9 +180,9 @@
             </div>  
           </div>
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-            <div class="feature-img"><a href="#events" class="scroll"><img src="img/images_web/Events-Small.png" class="top-section-headers" alt="Events"></a></div>
+            <div class="feature-img"><a href="#photos" class="scroll"><img src="img/images_web/Events-Small.png" class="top-section-headers" alt="Events"></a></div>
             <a href="#photos" class="scroll" ><h3>See the Photos!</h3></a>
-            <a class="scroll" href="#events" id="cycler-old">
+            <a class="scroll" href="#photos" id="cycler-old">
            
               <script type="text/javascript">
             if(window.innerWidth>767){
@@ -468,7 +468,7 @@
     </section>
   
     <!--Events-->
-    <section class="page-block" id="events">
+    <!--<section class="page-block" id="events">
     	<div class="container">
         <div class="row page-header">
           <img src="img/images_web/Events.png" class="section-header" alt="Events"/>
@@ -489,7 +489,7 @@
           </p>   
           </div>
         </div>
-      </div>
+      </div>-->
     </section>
   
     <!--Bottle Service--> 
