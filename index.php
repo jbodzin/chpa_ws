@@ -90,7 +90,7 @@
                 <li><a href="#dinner">Dinner</a></li>
               </ul>--></li>
             <li class=""><a class="scroll" href="#photos">Photos</a></li>
-            <!--<li class=""><a class="scroll" href="#events">Events</a></li>-->
+            <li class=""><a class="scroll" href="#events">Events</a></li>
             <li class=""><a class="scroll" href="#bottle-service">Bottle Service</a></li>
             <li class=""><a class="scroll" href="#careers">Careers</a></li>
             <li class=""><a class="scroll" href="#location">Location &amp; Hours</a></li>
@@ -180,22 +180,18 @@
             </div>  
           </div>
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-            <div class="feature-img"><a href="#photos" class="scroll"><img src="img/images_web/Events-Small.png" class="top-section-headers" alt="Events"></a></div>
+            <div class="feature-img"><a href="#events" class="scroll"><img src="img/images_web/Events-Small.png" class="top-section-headers" alt="Events"></a></div>
             <a href="#photos" class="scroll" ><h3>See the Photos!</h3></a>
-            <a class="scroll" href="#photos" id="cycler-old">
-           
-              <script type="text/javascript">
+            <a class="scroll" href="#events" id="cycler-old">
+              <img src="img/loyal.jpg" class="square-photos event-img feature-photo" alt="Events"/>
+              <!--<script type="text/javascript">
             if(window.innerWidth>767){
                   document.write('<img src="img/Party-Photos/Event-Thumbnail.png" class="square-photos event-img feature-photo" alt="Events"/>');
-                  //document.write('<img class="active" src="img/Party-Photos/SuperBowl_Web.jpg" class="square-photos event-img feature-photo" alt="Events"/>');
-                  //document.write('<img src="img/Party-Photos/SuperBowl_Web02.jpg" class="square-photos event-img feature-photo" alt="Events"/>');
                 }
                 else{
                   document.write('<img src="img/Party-Photos/Event-Thumbnail.png" class="mobile-photos" alt="Free Lunch"/>');
-                  //document.write('<img class="active" src="img/Party-Photos/SuperBowl_Web.jpg" class="mobile-photos" alt="Free Lunch"/>');
-                  //document.write('<img src="img/Party-Photos/SuperBowl_Web02.jpg" class="mobile-photos" alt="Free Lunch"/>');
                 }
-            </script>
+            </script>-->
           
             </a>
           </div>
@@ -468,28 +464,39 @@
     </section>
   
     <!--Events-->
-    <!--<section class="page-block" id="events">
+    <section class="page-block" id="events">
     	<div class="container">
         <div class="row page-header">
           <img src="img/images_web/Events.png" class="section-header" alt="Events"/>
         </div>
         <div class="row">
           <div class="col-lg-4 col-md-4 col-sm-3">
-            <img src="img/images_web/Anniversary.jpg" alt="Masquerade Party" class="square-photos">
+            <img src="img/loyal.jpg" alt="Masquerade Party" class="square-photos">
           </div>
           <div class="col-lg-5 col-lg-offset-1 col-md-5 col-sm-7">
-          <h3>Anniversary Masquerade Party</h3>
-          <p>Sunday, Sept. 4th, 2016</p>
-          <p>
-          Door Prizes & Drink Specials All Night!<br><br>
-          FREE Drinks Between 5 & 6pm<br>
-          2-4-1 Drinks Between 6 & 9pm<br>
-          Full Bar till 2am<br><br>
-          Free admission for anyone in mask. 
-          </p>   
+              <p>
+                <span  style="font-size: 1.3em;">LOCAL LOYALS WEEK</span><br>
+                VISIT OUR SISTER CLUBS DURING THIS WILD WEEK OF FUN!<br>
+                SEPTEMBER 25 - OCTOBER 1st
+            </p>
+            <p>Ask for a rewards card and enjoy specials at each location!</p>
+            <p>
+                The Penthouse Club Baton Rouge<br>
+                4622 Bennington Ave<br>
+                Baton Rouge, LA 70808
+            </p>
+            <p>
+                The Gold Club Gonzales<br>
+                37034 Highway 30<br>
+                Gonzales, LA 70734
+            </p>
+            <p>
+                The Crazy Horse Port Allen<br>
+                2901 I-10 Frontage Road<br>
+                Port Allen, LA 70767</p>  
           </div>
         </div>
-      </div>-->
+      </div>
     </section>
   
     <!--Bottle Service--> 

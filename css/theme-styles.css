@@ -3163,8 +3163,8 @@ div.line {
 	.square-photos{
 		margin-left: auto;
 		margin-right: auto;
-		width:263px;
-		height:263px;
+		width:100%;
+		height:100%;
 	}
 	.career-photo{
 		margin-top: 20px;
