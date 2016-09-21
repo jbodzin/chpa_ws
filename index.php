@@ -434,30 +434,13 @@
                 <img src="img/Party-Thumbnails/Interior-Photos-Thumbnail.png" alt="Interior"/>
                 <span class="img-caption">Interior</span>
               </a>
-            </li>            <!--<li>
-              <a href="#" data-largesrc="img/Party-Thumbnails/Car-Show.png" data-title="Car Show " data-description="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.">
-                <img src="img/Party-Thumbnails/Car-Show.png" alt="Car Show"/>
-                <span class="img-caption">Car Show</span>
-              </a>
-            </li>
+            </li>      
             <li>
-              <a href="#" data-largesrc="img/Party-Thumbnails/UFC-Fight-Night.png" data-title="UFC Fight Night" data-description="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.">
-                <img src="img/Party-Thumbnails/UFC-Fight-Night.png" alt="UFC Fight Night"/>
-                <span class="img-caption">UFC Fight Night</span>
+              <a href="anniversary.html" data-largesrc="img/Party-Thumbnails/AlbumCover-small.jpg" data-title="Anniversary Masquerade Party" data-description="‎Another year, another fantastic celebration! Our Anniversary Masquerade Party was an event to remember. We’ve created a photo gallery to keep you reminiscing." alt="Anniversary Masquerade Party"/>
+                <img src="img/Party-Thumbnails/AlbumCover-small.jpg" alt=""/>
+                <span class="img-caption">Anniversary Party</span>
               </a>
-            </li>
-            <li>
-              <a href="#" data-largesrc="img/gallery/7.jpg" data-title="London Boat" data-description="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.">
-                <img src="img/gallery/th_7.png" alt="thumb07"/>
-                <span class="img-caption">London Boat</span>
-              </a>
-            </li>
-            <li>
-              <a href="#" data-largesrc="img/gallery/8.jpg" data-title="Apple Air" data-description="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.">
-                <img src="img/gallery/th_8.png" alt="thumb08"/>
-                <span class="img-caption">Apple Air</span>
-              </a>
-            </li>-->
+            </li>   
           </ul>
         </div>
       </div>
