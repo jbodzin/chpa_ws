@@ -1,42 +1,7 @@
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Crazy Horse Cabaret Port Allen</title>
-    <meta name="description" content="Crazy Horse Cabaret Port Allen" />
-    <meta name="keywords" content="strip club, bar, gentlemens club, night club, free lunch" />
-    <meta name="author" content="Crazy Horse Cabaret Port Allen" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <!--Favicon-->
-    <link rel="shortcut icon" href="img/Icons/CH-Favicon-Blue.png" type="image/x-icon">
-    <link rel="icon" href="img/Icons/CH-Favicon-Blue.png" type="image/x-icon">
-    <!--Google Fonts-->
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
-    <!--Bootstrap 3.1.1-->
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <!--Icon Fonts-->
-    <link href="css/font-awesome.min.css" rel="stylesheet" media="screen">
-    <link href="css/icon-moon.css" rel="stylesheet" media="screen">
-    <!--Animations-->
-    <link href="css/animate.css" rel="stylesheet" media="screen">
-    <!--Theme Styles-->
-    <link href="css/theme-styles.css" rel="stylesheet" media="screen">
-    <!--Color Schemes-->
-    <link href="css/colors/color-kirkendoll.css" rel="stylesheet" media="screen">
-    <!--Modernizr-->
-    <script src="js/libs/modernizr.custom.js"></script>
-    <!--Adding Media Queries and Canvas Support for IE8-->
-    <!--[if lt IE 9]>
-      <script src="js/plugins/respond.min.js"></script>
-      <script src="js/plugins/excanvas.js"></script>
-    <![endif]-->
-    <link rel="stylesheet" href="css/swiper.css">
-    <link rel="stylesheet" href="css/swiper.min.css">
-    <script src="js/swiper.js"></script>
-    <script src="js/swiper.min.js"></script>
-    <script src="js/swiper.jquery.js"></script>
-    <script src="js/swiper.jquery.min.js"></script>
 
-  </head>
+  <?php require "head.php" ?>
+
 
   <body class="">
 

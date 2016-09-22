@@ -4,60 +4,9 @@
 
 
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Crazy Horse Cabaret Port Allen</title>
-    <meta name="description" content="Crazy Horse Cabaret Port Allen" />
-		<meta name="keywords" content="strip club, bar, gentlemens club, night club, free lunch" />
-		<meta name="author" content="Crazy Horse Cabaret Port Allen" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <!--Favicon-->
-    <link rel="shortcut icon" href="img/Icons/CH-Favicon-Blue.png" type="image/x-icon">
-    <link rel="icon" href="img/Icons/CH-Favicon-Blue.png" type="image/x-icon">
-    <!--Google Fonts-->
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
-    <!--Bootstrap 3.1.1-->
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <!--Icon Fonts-->
-    <link href="css/font-awesome.min.css" rel="stylesheet" media="screen">
-    <link href="css/icon-moon.css" rel="stylesheet" media="screen">
-    <!--Animations-->
-    <link href="css/animate.css" rel="stylesheet" media="screen">
-    <!--Theme Styles-->
-    <link href="css/theme-styles.css" rel="stylesheet" media="screen">
-    <!--Color Schemes-->
-    <link href="css/colors/color-kirkendoll.css" rel="stylesheet" media="screen">
-    <!--Modernizr-->
-		<script src="js/libs/modernizr.custom.js"></script>
-    <!--Adding Media Queries and Canvas Support for IE8-->
-    <!--[if lt IE 9]>
-      <script src="js/plugins/respond.min.js"></script>
-      <script src="js/plugins/excanvas.js"></script>
-    <![endif]-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-    <script type="text/javascript">
-    function cycleImages(){
-      var $active = $('#cycler .active');
-      var $next = ($active.next().length > 0) ? $active.next() : $('#cycler img:first');
-      $next.css('z-index',2);//move the next image up the pile
-      $active.fadeOut(1500,function(){//fade out the top image
-    $active.css('z-index',1).show().removeClass('active');//reset the z-index and unhide the image
-          $next.css('z-index',3).addClass('active');//make the next image the top one
-      });
-    }
+  
+  <?php require "head.php" ?>
 
-    $(document).ready(function(){
-    // run every 7s
-      setInterval('cycleImages()', 7000);
-    })
-
-    </script>
-    <style>
-      #cycler{position:relative;}
-      #cycler img{position:absolute;z-index:1}
-      #cycler img.active{z-index:3}
-    </style>
-  </head>
 
   <!--Body-->
   <body class="space-top">
@@ -400,43 +349,43 @@
         <div class="row">
           <ul class="gallery">
             <li>
-              <a href="memorial_day.html" data-largesrc="img/Party-Thumbnails/MemDayCover.jpg" data-title="Memorial Day Fundraiser" data-description="What better way to show  patriotism than painting the sexy Crazy Horse Cabaret girls in red, white and blue! Thanks to you, the Memorial Day Fundraiser was a great success. Check out the photos and keep on enjoying these beautiful works of art.">
+              <a href="memorial_day.php" data-largesrc="img/Party-Thumbnails/MemDayCover.jpg" data-title="Memorial Day Fundraiser" data-description="What better way to show  patriotism than painting the sexy Crazy Horse Cabaret girls in red, white and blue! Thanks to you, the Memorial Day Fundraiser was a great success. Check out the photos and keep on enjoying these beautiful works of art.">
                 <img src="img/Party-Thumbnails/MemDayCover.jpg" alt="Memorial Day Fundraiser"/>
                 <span class="img-caption">Memorial Day Fundraiser</span>
               </a>
             </li>
             <li>
-              <a href="xmas_2014.html" data-largesrc="img/Party-Thumbnails/Christmas-Party.png" data-title="Christmas Party" data-description="Some were nice, most were naughty, and everyone got exactly what they asked for. The Winter Fantasyland Xmas Party was amazing. Check out all the photos, and get ready for next year.">
+              <a href="xmas_2014.php" data-largesrc="img/Party-Thumbnails/Christmas-Party.png" data-title="Christmas Party" data-description="Some were nice, most were naughty, and everyone got exactly what they asked for. The Winter Fantasyland Xmas Party was amazing. Check out all the photos, and get ready for next year.">
                 <img src="img/Party-Thumbnails/Christmas-Party.png" alt="Christmas Party"/>
                 <span class="img-caption">Christmas Party 2014</span>
               </a>
             </li>
             <li>
-              <a href="halloween_party.html" data-largesrc="img/Party-Thumbnails/Halloween-Party.png" data-title="Halloween Party" data-description="Whats better than sexy girls in costume? You guessed it. Sexy girls out of costume. Our annual Halloween Party was spooky awesome. There's no better place to celebrate. No trickery involved, we have the best treats. See the gallery and get your costume ready for next year.">
+              <a href="halloween_party.php" data-largesrc="img/Party-Thumbnails/Halloween-Party.png" data-title="Halloween Party" data-description="Whats better than sexy girls in costume? You guessed it. Sexy girls out of costume. Our annual Halloween Party was spooky awesome. There's no better place to celebrate. No trickery involved, we have the best treats. See the gallery and get your costume ready for next year.">
                 <img src="img/Party-Thumbnails/Halloween-Party.png" alt="Halloween Party"/>
                 <span class="img-caption">Halloween Party 2014</span>
               </a>
             </li>
             <li>
-              <a href="luau_party.html" data-largesrc="img/Party-Thumbnails/Luau-Party.png" data-title="Luau Party" data-description="Aloha, what better way to get down than a luau. The pig roast was incredible. The tiki drinks were flowing. Tons of beautiful girls on stage in bikinis, and the party really started when the tops came off. See all the photos.">
+              <a href="luau_party.php" data-largesrc="img/Party-Thumbnails/Luau-Party.png" data-title="Luau Party" data-description="Aloha, what better way to get down than a luau. The pig roast was incredible. The tiki drinks were flowing. Tons of beautiful girls on stage in bikinis, and the party really started when the tops came off. See all the photos.">
                 <img src="img/Party-Thumbnails/Luau-Party.png" alt="Luau Party"/>
                 <span class="img-caption">Luau Party</span>
               </a>
             </li>
             <li>
-              <a href="masquerade_party.html" data-largesrc="img/Party-Thumbnails/Masquerade-Party.png" data-title="Masquerade Party" data-description="What's life without a little mystery? The incredible Crazy Horse Cabaret girls performed in masks, and hardly anything else. It was another wild party, and we're sorry to anyone who didn't get to see it in person, but you can see all the action in the photo gallery.">
+              <a href="masquerade_party.php" data-largesrc="img/Party-Thumbnails/Masquerade-Party.png" data-title="Masquerade Party" data-description="What's life without a little mystery? The incredible Crazy Horse Cabaret girls performed in masks, and hardly anything else. It was another wild party, and we're sorry to anyone who didn't get to see it in person, but you can see all the action in the photo gallery.">
                 <img src="img/Party-Thumbnails/Masquerade-Party.png" alt="Masquerade Party"/>
                 <span class="img-caption">Masquerade Party</span>
               </a>
             </li>
             <li>
-              <a href="interior.html" data-largesrc="img/Party-Thumbnails/Interior-Photos-Thumbnail.png" data-title="Interior" data-description="‎The newly renovated club looks better than ever. Come see what we're working with, take a look for yourself. ">
+              <a href="interior.php" data-largesrc="img/Party-Thumbnails/Interior-Photos-Thumbnail.png" data-title="Interior" data-description="‎The newly renovated club looks better than ever. Come see what we're working with, take a look for yourself. ">
                 <img src="img/Party-Thumbnails/Interior-Photos-Thumbnail.png" alt="Interior"/>
                 <span class="img-caption">Interior</span>
               </a>
             </li>      
             <li>
-              <a href="anniversary.html" data-largesrc="img/Party-Thumbnails/AlbumCover-small.jpg" data-title="Anniversary Masquerade Party" data-description="‎Another year, another fantastic celebration! Our Anniversary Masquerade Party was an event to remember. We’ve created a photo gallery to keep you reminiscing." alt="Anniversary Masquerade Party"/>
+              <a href="anniversary.php" data-largesrc="img/Party-Thumbnails/AlbumCover-small.jpg" data-title="Anniversary Masquerade Party" data-description="‎Another year, another fantastic celebration! Our Anniversary Masquerade Party was an event to remember. We’ve created a photo gallery to keep you reminiscing." alt="Anniversary Masquerade Party"/>
                 <img src="img/Party-Thumbnails/AlbumCover-small.jpg" alt=""/>
                 <span class="img-caption">Anniversary Party</span>
               </a>
