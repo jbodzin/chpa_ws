@@ -132,7 +132,7 @@
             <div class="feature-img"><a href="#events" class="scroll"><img src="img/images_web/Events-Small.png" class="top-section-headers" alt="Events"></a></div>
             <a href="#photos" class="scroll" ><h3>See the Photos!</h3></a>
             <a class="scroll" href="#events" id="cycler-old">
-              <img src="img/loyal.jpg" class="square-photos event-img feature-photo" alt="Events"/>
+              <img src="img/halloween.jpg" class="square-photos event-img feature-photo" alt="Events"/>
               <!--<script type="text/javascript">
             if(window.innerWidth>767){
                   document.write('<img src="img/Party-Photos/Event-Thumbnail.png" class="square-photos event-img feature-photo" alt="Events"/>');
@@ -403,29 +403,18 @@
         </div>
         <div class="row">
           <div class="col-lg-4 col-md-4 col-sm-3">
-            <img src="img/loyal.jpg" alt="Masquerade Party" class="square-photos">
+            <img src="img/halloween.jpg" alt="Halloween Party" class="square-photos">
           </div>
           <div class="col-lg-5 col-lg-offset-1 col-md-5 col-sm-7">
               <p>
-                <span  style="font-size: 1.3em;">LOCAL LOYALS WEEK</span><br>
-                VISIT OUR SISTER CLUBS DURING THIS WILD WEEK OF FUN!<br>
-                SEPTEMBER 25 - OCTOBER 1st
+                <span  style="font-size: 1.3em;">THE CRAZY HORSE'S HALLOWEEN PARTY</span><br>
+                Sunday, October 30TH
             </p>
-            <p>Ask for a rewards card and enjoy specials at each location!</p>
-            <p>
-                The Penthouse Club Baton Rouge<br>
-                4622 Bennington Ave<br>
-                Baton Rouge, LA 70808
-            </p>
-            <p>
-                The Gold Club Gonzales<br>
-                37034 Highway 30<br>
-                Gonzales, LA 70734
-            </p>
-            <p>
-                The Crazy Horse Port Allen<br>
-                2901 I-10 Frontage Road<br>
-                Port Allen, LA 70767</p>  
+            <p>Featuring AJA Marie<br>       
+                Costume Contest<br>
+                $500 Cash & Prizes<br>
+                2-4-1 Drinks Between 5 & 8pm<br>
+                Door Prizes & Drink Specials All Night!</p>
           </div>
         </div>
       </div>
