@@ -410,7 +410,7 @@
                 <span  style="font-size: 1.3em;">THE CRAZY HORSE'S HALLOWEEN PARTY</span><br>
                 Sunday, October 30TH
             </p>
-            <p>Featuring AJA Marie<br>       
+            <p>Featuring Asia Marie<br>       
                 Costume Contest<br>
                 $500 Cash & Prizes<br>
                 2-4-1 Drinks Between 5 & 8pm<br>
@@ -521,9 +521,10 @@
             </div>
             <div class="row location-text">
               <div class="col-lg-12">
-                <p>Open 7 days a week<br><br>
-                Free Lunch Mon-Fri:<br>11:30am until 2:30pm<br><br>
-                Happy Hour Mon-Fri:<br>3pm until 7:30pm</p>
+                <p>Mon-Fri: 11:30am - 2am<br>
+                   Sat-Sun: 5pm - 2am<br><br>
+                   Free Lunch Mon-Fri:<br>11:30am - 2:30pm<br><br>
+                   Happy Hour Mon-Fri:<br>3pm - 7:30pm</p>
               </div>
             </div>
           </div>
