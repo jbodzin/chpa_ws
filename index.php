@@ -88,7 +88,7 @@
                     img = 'img/food/Food-Mobile/Monday-Redbeans-Mobile.png';
                   }
               }
-              else if(n==2){
+              else if(n==3){
                   header = 'Jambalaya';
                   if(window.innerWidth>768){
                     img = 'img/food/Tuesday-Jambalaya.png';
@@ -97,7 +97,7 @@
                     img = 'img/food/Food-Mobile/Tuesday-Jambalaya-Mobile.png';
                   }
               }
-              else if(n==3){
+              else if(n==2){
                   header = 'Chicken Fried Steak';
                   if(window.innerWidth>768){
                     img = 'img/food/Wednesday-ChxFriedSteak.png';
@@ -191,7 +191,7 @@
           <div class="tab-pane fade in col-lg-12" id="happy-hour">
           	<div class="row">
               <div class="tab-header">
-                <span><h5>Beer and Cocktail Specials</h5><h6>Monday - Friday 3:00pm - 7:30pm</h6></span>
+                <span><h5>Beer and Cocktail Specials</h5><h6>Monday - Friday 3:00pm - 7:00pm</h6></span>
               </div>
             	<div class="col-lg-6 col-md-6 animated fadeInLeft photo-subtext">
                 <script type="text/javascript">
@@ -233,13 +233,13 @@
               var d = new Date();
               var n = d.getDay(); 
               var monday = 'img/food/Monday-Redbeans.png" class="square-photos" alt="Red Beans &amp; Rice"/><h4>Monday:</h4><p>Red Beans &amp; Rice</p></div>'
-              var tuesday = 'img/food/Tuesday-Jambalaya.png" class="square-photos" alt="Jambalaya"/><h4>Tuesday:</h4><p>Jambalaya</p></div>'
-              var wednesday = 'img/food/Wednesday-ChxFriedSteak.png" class="square-photos" alt="Chicken Fried Steak"/><h4>Wednesday:</h4><p>Chicken Fried Steak</p></div>'
+              var wednesday = 'img/food/Tuesday-Jambalaya.png" class="square-photos" alt="Jambalaya"/><h4>Tuesday:</h4><p>Jambalaya</p></div>'
+              var tuesday = 'img/food/Wednesday-ChxFriedSteak.png" class="square-photos" alt="Chicken Fried Steak"/><h4>Wednesday:</h4><p>Chicken Fried Steak</p></div>'
               var thursday = 'img/food/Thursday-Spaghetti.png" class="square-photos" alt="Spaghetti &amp; Meatballs"/><h4>Thursday:</h4><p>Spaghetti &amp; Meatballs</p></div>'
               var friday = 'img/food/Friday-Catfish.png" class="square-photos" alt="Catfish &amp; White Beans"/><h4>Friday:</h4><p>Catfish &amp; White Beans</p></div>'
               var monday_mobile = 'img/food/Food-Mobile/Monday-Redbeans-Mobile.png" class="mobile-photos" alt="Red Beans &amp; Rice"/><h4>Monday:</h4><p>Red Beans &amp; Rice</p></div>'
-              var tuesday_mobile = 'img/food/Food-Mobile/Tuesday-Jambalaya-Mobile.png" class="mobile-photos" alt="Jambalaya"/><h4>Tuesday:</h4><p>Jambalaya</p></div>'
-              var wednesday_mobile = 'img/food/Food-Mobile/Wednesday-ChxFriedSteak-Mobile.png" class="mobile-photos" alt="Chicken Fried Steak"/><h4>Wednesday:</h4><p>Chicken Fried Steak</p></div>'
+              var wednesday_mobile = 'img/food/Food-Mobile/Tuesday-Jambalaya-Mobile.png" class="mobile-photos" alt="Jambalaya"/><h4>Tuesday:</h4><p>Jambalaya</p></div>'
+              var tuesday_mobile = 'img/food/Food-Mobile/Wednesday-ChxFriedSteak-Mobile.png" class="mobile-photos" alt="Chicken Fried Steak"/><h4>Wednesday:</h4><p>Chicken Fried Steak</p></div>'
               var thursday_mobile = 'img/food/Food-Mobile/Thursday-Spaghetti-Mobile.png" class="mobile-photos" alt="Spaghetti &amp; Meatballs"/><h4>Thursday:</h4><p>Spaghetti &amp; Meatballs</p></div>'
               var friday_mobile = 'img/food/Food-Mobile/Friday-Catfish-Mobile.png" class="mobile-photos" alt="Catfish &amp; White Beans"/><h4>Friday:</h4><p>Catfish &amp; White Beans</p></div>'
               if(window.innerWidth<768){
@@ -294,12 +294,12 @@
                       document.write('<img src="img/food/Appetizer-CHX-Wings.png" class="square-photos" alt=""/>');
                     }
                 </script>   
-                <h4>Appetizers, $6</h4>
-                <p>Buffalo Wings ($8)<br>
-                    Cheese Sticks<br>
+                <h4>Appetizers, $9</h4>
+                <p>Cheese Sticks<br>
                     Jalepeño Poppers<br>
                     Spinach & Artichoke Dip<br>
-                    Crazy Horse Sampler ($8)</p>
+                    Extreme Nachos
+                    </p>
               </div>
               <div class="col-lg-4 col-md-4 animated fadeInRight photo-subtext">
                 <script type="text/javascript">
@@ -313,26 +313,31 @@
                 <h4>Sides, $3</h4>
                 <p>French Fries<br>
                 Sweet Potato Fries<br>
-                Onion Rings</p>
+                Onion Rings<br>
+                Mac & Cheese<br>
+                Mashed Potatoes<br>
+                Steamed Vegetables<br>
+                Side Salad</p>
               </div>
               <div class="col-lg-4 col-md-4 animated fadeInRight photo-subtext">
                 <script type="text/javascript">
                     if(window.innerWidth<768){
-                      document.write('<img src="img/food/Food-Mobile/Alfredo-Mobile.png" class="mobile-photos" alt=""/>');
+                      document.write('<img src="img/food/Food-Mobile/CHX-Wings-Mobile.png" class="mobile-photos" alt=""/>');
                     }
                     else{
-                      document.write('<img src="img/food/Entree-Alfredo.png" class="square-photos" alt=""/>');
+                      document.write('<img src="img/food/Appetizer-CHX-Wings.png" class="square-photos" alt=""/>');
                     }
                 </script>   
-                <h4>Entrees, $8</h4>
-                <p>Fettuccini Alfredo<br>
+                <h4>Entrees, $11</h4>
+                <p>
+                Chicken Wings (w/ side)<br>
                 Chicken Salad (Fried or Grilled)<br>
                 Shrimp Salad (Fried or Grilled)<br>
                 Chicken Sandwich (Fried or Grilled w/side)<br>
                 Shrimp Sandwich (Fried or Grilled w/side)<br>
                 Chicken Platter (Fried or Grilled w/side)<br>
                 Shrimp Platter (Fried or Grilled w/side)<br>
-                Hamburger & Fries ($5)</p>
+                Chicken Fried Steak Sandwich (w/ side)</p>
               </div>
             </div>
           </div>
@@ -524,7 +529,7 @@
                 <p>Mon-Fri: 11:30am - 2am<br>
                    Sat-Sun: 5pm - 2am<br><br>
                    Free Lunch Mon-Fri:<br>11:30am - 2:30pm<br><br>
-                   Happy Hour Mon-Fri:<br>3pm - 7:30pm</p>
+                   Happy Hour Mon-Fri:<br>3pm - 7pm</p>
               </div>
             </div>
           </div>
