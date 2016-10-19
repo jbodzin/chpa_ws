@@ -440,6 +440,7 @@
               document.write('<img src="img/food/Bottle-Service-Small.png" class="large-photo-mobile bottle-service-img" alt="Bottle Service"/>')
             }
           </script>
+          <h2>Call us today to reserve: <a href="tel:1-225-387-6444">(225) 387-6444</a></h2>
         	<div class="col-lg-6 col-md-6 col-sm-6 bottle-service-adj">
             <div class="bottles-mixers">
             	<div class="header">

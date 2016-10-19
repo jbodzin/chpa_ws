@@ -32,6 +32,10 @@
 	-webkit-font-smoothing: antialiased;
 }*/
 
+a{
+    color: #34C6F4;
+}
+
 body{
 	margin: 0px auto;
 	background-image: url("/img/Bg.jpg");
@@ -2952,6 +2956,9 @@ div.line {
 	width: 50%
 }
 
+#bottle-service h2 {
+    text-align: center;
+}
 
 /*VIP Access Form*/
 #mktoForm_1109{
