@@ -39,7 +39,7 @@
                 <li><a href="#dinner">Dinner</a></li>
               </ul>--></li>
             <li class=""><a class="scroll" href="#photos">Photos</a></li>
-           <!-- <li class=""><a class="scroll" href="#events">Events</a></li> -->
+            <li class=""><a class="scroll" href="#events">Events</a></li>
             <li class=""><a class="scroll" href="#bottle-service">Bottle Service</a></li>
             <li class=""><a class="scroll" href="#careers">Careers</a></li>
             <li class=""><a class="scroll" href="#location">Location &amp; Hours</a></li>
@@ -131,17 +131,16 @@
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <div class="feature-img"><a href="#events" class="scroll"><img src="img/images_web/Events-Small.png" class="top-section-headers" alt="Events"></a></div>
             <a href="#photos" class="scroll" ><h3>See the Photos!</h3></a>
-            <!--<a class="scroll" href="#events" id="cycler-old">
-               <img src="img/halloween.jpg" class="square-photos event-img feature-photo" alt="Events"/>-->
-              <a class="scroll" href="#photos" id="cycler-old">
-             <script type="text/javascript">
+            <a class="scroll" href="#events" id="cycler-old">
+              <img src="img/christmas.jpg" class="square-photos event-img feature-photo" alt="Events"/>
+              <!--<script type="text/javascript">
             if(window.innerWidth>767){
                   document.write('<img src="img/Party-Photos/Event-Thumbnail.png" class="square-photos event-img feature-photo" alt="Events"/>');
                 }
                 else{
                   document.write('<img src="img/Party-Photos/Event-Thumbnail.png" class="mobile-photos" alt="Free Lunch"/>');
                 }
-            </script>
+            </script>-->
           
             </a>
           </div>
@@ -401,7 +400,7 @@
       </div>
     </section>
   
-    <!--Events
+    <!--Events-->
     <section class="page-block" id="events">
     	<div class="container">
         <div class="row page-header">
@@ -409,23 +408,25 @@
         </div>
         <div class="row">
           <div class="col-lg-4 col-md-4 col-sm-3">
-            <img src="img/halloween.jpg" alt="Halloween Party" class="square-photos">
+            <img src="img/christmas.jpg" alt="Christmas Party" class="square-photos">
           </div>
           <div class="col-lg-5 col-lg-offset-1 col-md-5 col-sm-7">
               <p>
-                <span  style="font-size: 1.3em;">THE CRAZY HORSE'S HALLOWEEN PARTY</span><br>
-                Sunday, October 30TH
+                <span  style="font-size: 1.1em;">Come spend Christmas at the Pole, at our Winter Fantasyland Christmas Party!</span><br><br>
+                Sunday, DEC 18th
             </p>
-            <p>Featuring Asia Marie<br>       
-                Costume Contest<br>
-                $500 Cash & Prizes<br>
-                2-4-1 Drinks Between 5 & 8pm<br>
-                Door Prizes & Drink Specials All Night!</p>
+            <p>$500 Cash & Prizes<br>       
+                Free Drinks 5pm – 6pm<br>
+                2-4-1 Drinks 6pm – 7pm<br>
+                Complimentary Holiday Buffet 7pm-9pm<br>
+                Door Prizes & Drink Specials All Night!<br><br>
+                OPEN ‘TIL 2AM</p>
+
           </div>
         </div>
       </div>
     </section>
-  -->
+  
     <!--Bottle Service--> 
     <section class="page-block" id="bottle-service">
     	<div class="container">
