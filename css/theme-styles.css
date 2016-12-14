@@ -3055,6 +3055,14 @@ div.line {
 	display: none;
 }
 
+.food-tab{
+	margin-right: 0 !important;
+}
+
+.cocktails{
+	width: 80% !important;
+}
+
 /*Mobile Only CSS Mods*/
 @media screen and (max-width: 767px){
 	.bottle-service-header{

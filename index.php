@@ -88,15 +88,6 @@
                     img = 'img/food/Food-Mobile/Monday-Redbeans-Mobile.png';
                   }
               }
-              else if(n==3){
-                  header = 'Jambalaya';
-                  if(window.innerWidth>768){
-                    img = 'img/food/Tuesday-Jambalaya.png';
-                  }
-                  else{
-                    img = 'img/food/Food-Mobile/Tuesday-Jambalaya-Mobile.png';
-                  }
-              }
               else if(n==2){
                   header = 'Chicken Fried Steak';
                   if(window.innerWidth>768){
@@ -104,6 +95,15 @@
                   }
                   else{
                     img = 'img/food/Food-Mobile/Wednesday-ChxFriedSteak-Mobile.png';
+                  }
+              }
+              else if(n==3){
+                  header = 'Jambalaya';
+                  if(window.innerWidth>768){
+                    img = 'img/food/Tuesday-Jambalaya.png';
+                  }
+                  else{
+                    img = 'img/food/Food-Mobile/Tuesday-Jambalaya-Mobile.png';
                   }
               }
               else if(n==4){
@@ -189,7 +189,7 @@
       <div class="container">
         <div class="row tab-content central">
           <div class="tab-pane fade in col-lg-12" id="happy-hour">
-          	<div class="row">
+          	<div class="row food-tab">
               <div class="tab-header">
                 <span><h5>Beer and Cocktail Specials</h5><h6>Monday - Friday 3:00pm - 7:00pm</h6></span>
               </div>
@@ -199,7 +199,7 @@
                   document.write('<img src="img/food/Food-Mobile/Happy-Hour-Beer-Mobile.png" class="mobile-photos" alt="$3 Domestic Beers"/>')
                 }
                 else{
-                  document.write('<img src="img/food/Happy-Hour-Beer.png" class="square-photos" alt="$3 Domestic Beers"/>')
+                  document.write('<img src="img/food/Happy-Hour-Beer.png" class="square-photos cocktails" alt="$3 Domestic Beers"/>')
                 }
                 </script>
                 <p>$3 Domestic Beers</p>
@@ -212,7 +212,7 @@
                       document.write('<img src="img/food/Food-Mobile/Happy-Hour-Cocktail-Mobile.png" class="mobile-photos" alt="$3 Well Cocktails"/>');
                     }
                     else{
-                      document.write('<img src="img/food/Happy-Hour-Cocktail.png" class="square-photos" alt="$3 Well Cocktails"/>');
+                      document.write('<img src="img/food/Happy-Hour-Cocktail.png" class="square-photos cocktails" alt="$3 Well Cocktails"/>');
                     }
                     </script>    
                     <p class="double-space-bottom">$3 Well Cocktails</p>
@@ -222,7 +222,7 @@
             </div>
           </div>
           <div class="tab-pane fade in active col-lg-12" id="free-lunch">
-          	<div class="row">
+          	<div class="row food-tab">
               <div class="tab-header">
                 <span><h5>Sit down for a complimentary lunch<br>and enjoy the view.</h5><h6>Monday - Friday 11:30am - 2:30 pm</h6></span>
               </div>
@@ -233,8 +233,8 @@
               var d = new Date();
               var n = d.getDay(); 
               var monday = 'img/food/Monday-Redbeans.png" class="square-photos" alt="Red Beans &amp; Rice"/><h4>Monday:</h4><p>Red Beans &amp; Rice</p></div>'
-              var wednesday = 'img/food/Tuesday-Jambalaya.png" class="square-photos" alt="Jambalaya"/><h4>Tuesday:</h4><p>Jambalaya</p></div>'
-              var tuesday = 'img/food/Wednesday-ChxFriedSteak.png" class="square-photos" alt="Chicken Fried Steak"/><h4>Wednesday:</h4><p>Chicken Fried Steak</p></div>'
+              var tuesday = 'img/food/Wednesday-ChxFriedSteak.png" class="square-photos" alt="Chicken Fried Steak"/><h4>Tuesday:</h4><p>Chicken Fried Steak</p></div>'
+              var wednesday = 'img/food/Tuesday-Jambalaya.png" class="square-photos" alt="Jambalaya"/><h4>Wednesday:</h4><p>Jambalaya</p></div>'
               var thursday = 'img/food/Thursday-Spaghetti.png" class="square-photos" alt="Spaghetti &amp; Meatballs"/><h4>Thursday:</h4><p>Spaghetti &amp; Meatballs</p></div>'
               var friday = 'img/food/Friday-Catfish.png" class="square-photos" alt="Catfish &amp; White Beans"/><h4>Friday:</h4><p>Catfish &amp; White Beans</p></div>'
               var monday_mobile = 'img/food/Food-Mobile/Monday-Redbeans-Mobile.png" class="mobile-photos" alt="Red Beans &amp; Rice"/><h4>Monday:</h4><p>Red Beans &amp; Rice</p></div>'
@@ -281,7 +281,7 @@
             </div>
           </div>
           <div class="tab-pane fade col-lg-12" id="dinner">
-          	           <div class="row">
+          	<div class="row food-tab">
               <div class="tab-header">
                 <span><h5>Dinner Menu</h5><h6>7 Days a Week 5:00pm - 1:00am</h6></span>
               </div>
@@ -354,6 +354,12 @@
         <div class="row">
           <ul class="gallery">
             <li>
+              <a href="anniversary.php" data-largesrc="img/Party-Thumbnails/AlbumCover-small.jpg" data-title="Anniversary Masquerade Party" data-description="‎Another year, another fantastic celebration! Our Anniversary Masquerade Party was an event to remember. We’ve created a photo gallery to keep you reminiscing." alt="Anniversary Masquerade Party"/>
+                <img src="img/Party-Thumbnails/AlbumCover-small.jpg" alt=""/>
+                <span class="img-caption">Anniversary Party</span>
+              </a>
+            </li>
+            <li>
               <a href="memorial_day.php" data-largesrc="img/Party-Thumbnails/MemDayCover.jpg" data-title="Memorial Day Fundraiser" data-description="What better way to show  patriotism than painting the sexy Crazy Horse Cabaret girls in red, white and blue! Thanks to you, the Memorial Day Fundraiser was a great success. Check out the photos and keep on enjoying these beautiful works of art.">
                 <img src="img/Party-Thumbnails/MemDayCover.jpg" alt="Memorial Day Fundraiser"/>
                 <span class="img-caption">Memorial Day Fundraiser</span>
@@ -388,13 +394,7 @@
                 <img src="img/Party-Thumbnails/Interior-Photos-Thumbnail.png" alt="Interior"/>
                 <span class="img-caption">Interior</span>
               </a>
-            </li>      
-            <li>
-              <a href="anniversary.php" data-largesrc="img/Party-Thumbnails/AlbumCover-small.jpg" data-title="Anniversary Masquerade Party" data-description="‎Another year, another fantastic celebration! Our Anniversary Masquerade Party was an event to remember. We’ve created a photo gallery to keep you reminiscing." alt="Anniversary Masquerade Party"/>
-                <img src="img/Party-Thumbnails/AlbumCover-small.jpg" alt=""/>
-                <span class="img-caption">Anniversary Party</span>
-              </a>
-            </li>   
+            </li>         
           </ul>
         </div>
       </div>
