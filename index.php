@@ -132,7 +132,7 @@
             <div class="feature-img"><a href="#events" class="scroll"><img src="img/images_web/Events-Small.png" class="top-section-headers" alt="Events"></a></div>
             <a href="#photos" class="scroll" ><h3>See the Photos!</h3></a>
             <a class="scroll" href="#events" id="cycler-old">
-              <img src="img/christmas.jpg" class="square-photos event-img feature-photo" alt="Events"/>
+              <img src="img/superbowl.jpg" class="square-photos event-img feature-photo" alt="Events"/>
               <!--<script type="text/javascript">
             if(window.innerWidth>767){
                   document.write('<img src="img/Party-Photos/Event-Thumbnail.png" class="square-photos event-img feature-photo" alt="Events"/>');
@@ -408,19 +408,22 @@
         </div>
         <div class="row">
           <div class="col-lg-4 col-md-4 col-sm-3">
-            <img src="img/christmas.jpg" alt="Christmas Party" class="square-photos">
+            <img src="img/superbowl.jpg" alt="Superbowl Party" class="square-photos">
           </div>
           <div class="col-lg-5 col-lg-offset-1 col-md-5 col-sm-7">
               <p>
-                <span  style="font-size: 1.1em;">Come spend Christmas at the Pole, at our Winter Fantasyland Christmas Party!</span><br><br>
-                Sunday, DEC 18th
+                <span  style="font-size: 1.1em;">BIG GAME PARTY</span><br><br>
+                SUNDAY, FEBRUARY 5th
             </p>
+            <p>We’re celebrating the biggest game of the year with the biggest party of the year. Join us at the Crazy Horse for
+our Big Bowl Blowout on Sun, Feb 5. Enter to win a 50” 4K SMART TV with every lap dance in January and then enjoy the game, the girls and the ultimate giveaway.</p>
             <p>$500 Cash & Prizes<br>       
-                Free Drinks 5pm – 6pm<br>
-                2-4-1 Drinks 6pm – 7pm<br>
-                Complimentary Holiday Buffet 7pm-9pm<br>
-                Door Prizes & Drink Specials All Night!<br><br>
-                OPEN ‘TIL 2AM</p>
+                Free Drinks Til Kickoff<br>
+                Door Prizes & Drink Specials All Night!<br>
+                Every VIP & Single Dance Gets a Chance to Win A 50” 4K SMART TV<br>
+                Till the Big Game Night<br>
+                OPEN ‘TIL 2am<br>
+                </p>
 
           </div>
         </div>
