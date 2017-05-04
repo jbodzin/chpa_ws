@@ -148,19 +148,7 @@
             <div class="feature-img"><img src="img/images_web/VIP-Access.png" class="top-section-headers" alt="VIP Access"/></div>
             <h3>Sign up to recieve a free admission, exclusive invites, and other goodies!</h3>
             <p>
-            <script src="//app-ab03.marketo.com/js/forms2/js/forms2.min.js"></script>
-            <form id="mktoForm_1109"></form>
-            <script>MktoForms2.loadForm("//app-ab03.marketo.com", "634-KAC-055", 1109, function(form){
-                            form.onSuccess(function(values, followUpUrl) {
-                            // Get the form's jQuery element and hide it
-                                form.getFormElem().hide();
-                                document.getElementById("signup-ty").style.display = "block";
-                                // Return false to prevent the submission handler from taking the lead to the follow up url
-                                return false;
-                            });
-                        });
-                    </script>
-                    <h1 id="signup-ty">Thank you for your feedback!</h1>
+            <link href="https://app.e2ma.net/css/signup-refresh.med.css" rel="stylesheet" type="text/css"><script type="text/javascript" src="https://app.e2ma.net/app2/audience/tts_signup_refresh/1844941/5fab7a4efc11fd4c48f19864ce3235bf/1790495/"></script><div id="load_check" class="signup_form_message" >This form needs Javascript to display, which your browser doesn't support. <a href="https://app.e2ma.net/app2/audience/signup/1844941/1790495/"> Sign up here</a> instead </div><script type="text/javascript">signupFormObj.drawForm();</script>
             </p>
             <h3 class="follow-us">Follow Us!</h3>
             <div class="col-lg-12 col-md-12 col-sm-12">
@@ -551,19 +539,7 @@ our Big Bowl Blowout on Sun, Feb 5. Enter to win a 50” 4K SMART TV with every 
           <div class="col-lg-7 col-md-7">
             <img src="img/images_web/Contact-Us.png" class="section-header">
             <br></br>
-            <script src="//app-ab03.marketo.com/js/forms2/js/forms2.min.js"></script>
-            <form id="mktoForm_1110"></form>
-            <script>MktoForms2.loadForm("//app-ab03.marketo.com", "634-KAC-055", 1110, function(form){
-                            form.onSuccess(function(values, followUpUrl) {
-                            // Get the form's jQuery element and hide it
-                                form.getFormElem().hide();
-                                document.getElementById("contact-ty").style.display = "block";
-                                // Return false to prevent the submission handler from taking the lead to the follow up url
-                                return false;
-                            });
-                        });
-                    </script>
-                    <h1 id="contact-ty">Thank you for your feedback!</h1>
+            <link href="https://app.e2ma.net/css/signup-refresh.lrg.css" rel="stylesheet" type="text/css"><script type="text/javascript" src="https://app.e2ma.net/app2/audience/tts_signup_refresh/1845011/5fab7a4efc11fd4c48f19864ce3235bf/1790495/"></script><div id="load_check" class="signup_form_message" >This form needs Javascript to display, which your browser doesn't support. <a href="https://app.e2ma.net/app2/audience/signup/1845011/1790495/"> Sign up here</a> instead </div><script type="text/javascript">signupFormObj.drawForm();</script>
           </div>  
         </div>
       </div>
